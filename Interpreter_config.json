@@ -9,10 +9,10 @@
             "port": 80
           },
           "browserOptions": {
-            "browserName" : "firefox",
-            "username"    : "himanshuverma",
-            "accessKey"   : "eda5a7cc-ff62-4b62-9d2a-d78d54d582de",
-            "os"          : "windows xp"
+            "browserName": "firefox",
+            "username": "himanshuverma",
+            "accessKey": "eda5a7cc-ff62-4b62-9d2a-d78d54d582de",
+            "os" : "windows xp"
           }
         }
       ],
@@ -22,3 +22,5 @@
     }
   ]
 }
+
+    
