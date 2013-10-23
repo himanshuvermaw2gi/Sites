@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -74,122 +74,145 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Add New Campaign"
+        "type": "id",
+        "value": "NotActiveTab"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "3000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='leads']//a[.='Search Subscribers']"
+      }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "longnameInput"
+        "value": "firstname_input"
       },
-      "text": "manas123"
+      "text": "test12"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "shortNameInput"
-      },
-      "text": "masas012"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='editCampTable']/table[1]/tbody/tr[4]/td[2]/select//option[4]"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='editCampTable']/table[1]/tbody/tr[5]/td[2]/select//option[2]"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "sdButton"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "edButton"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "uselocator"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='campEmailCol']/select//option[13]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "codeInput"
+        "value": "lastname_input"
       },
       "text": "panalink"
     },
     {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailaddress_input"
+      },
+      "text": "himanshu@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "city_input"
+      },
+      "text": "New Delhi"
+    },
+		 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "dbOptInput"
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[1]"
       }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[13]"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#search_lead_button"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "editCampSubmit"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
-      }
+		 {
+      "type": "pause",
+      "waitTime": "7000"
     }
   ]
 }
