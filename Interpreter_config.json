@@ -17,7 +17,7 @@
         }
       ],
       "scripts": [
-        "test1234/*"
+        "tests/Add_campaign.json"
       ]
     }
   ]
