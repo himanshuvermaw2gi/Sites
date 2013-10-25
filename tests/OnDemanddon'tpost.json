@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-		  {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-		{
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -65,7 +65,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,15 +74,15 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "7000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[4]"
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[6]"
       }
     },
     {
@@ -94,6 +94,13 @@
       "text": "AL"
     },
     {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "no_post"
+      }
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -102,13 +109,20 @@
     },
 		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "OmnibarRight"
       }
     },
     {
@@ -120,7 +134,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "verifyTextPresent",
