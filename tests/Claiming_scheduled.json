@@ -67,7 +67,17 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Syndicate\"]"
+      }
+    },
+    	{
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
