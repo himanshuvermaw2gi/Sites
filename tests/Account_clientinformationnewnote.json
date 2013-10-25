@@ -114,6 +114,17 @@
         "value": "input_objectclass_in_notesinformation1"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='objectuid_value']/select//option[4]"
+      }
+    },
     
     {
       "type": "setElementText",
@@ -132,7 +143,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "20000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
