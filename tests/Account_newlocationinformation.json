@@ -185,21 +185,26 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_timeuom_in_locatorconfiguration_chzn']/a/div/b"
+        "type": "css selector",
+        "value": "a.chzn-single.chzn-single-with-drop > div > b"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "6000"
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_timeuom_in_locatorconfiguration_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "hour"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@id='timeuom_value']/select//option[2]"
+        "value": "//td[@id='timeuom_value']/select//option[4]"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
