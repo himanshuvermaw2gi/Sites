@@ -141,6 +141,10 @@
         "value": "add_sched"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
