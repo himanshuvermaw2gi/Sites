@@ -443,7 +443,7 @@
         "type": "css selector",
         "value": "#input_routepreference_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
       },
-      "text": "Local"
+      "text": "Shortest"
     },
    
     {
@@ -463,7 +463,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "40000"
     },
     {
       "type": "clickElement",
