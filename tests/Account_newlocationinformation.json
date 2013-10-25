@@ -180,14 +180,18 @@
     },
 		{
       "type": "pause",
-      "waitTime": "20000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
+        "type": "xpath",
+        "value": "//*[@id='input_timeuom_in_locatorconfiguration_chzn']/a/div/b"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
     },
     {
       "type": "setElementSelected",
