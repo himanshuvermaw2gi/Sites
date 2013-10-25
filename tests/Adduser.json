@@ -146,7 +146,7 @@
         "type": "id",
         "value": "passwd"
       },
-      "text": "123456"
+      "text": "Pana@95"
     },
     {
       "type": "clickElement",
@@ -164,35 +164,9 @@
       "text": "red"
     },
     
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "passwd"
-      },
-      "text": "Pana@95"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "Add_person"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1077224566_select"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "save_all_menu"
-      }
-    },
+   
+   
+    
 		{
       "type": "clickElement",
       "locator": {
