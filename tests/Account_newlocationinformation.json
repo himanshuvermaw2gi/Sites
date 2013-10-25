@@ -197,11 +197,14 @@
       },
       "text": "hour"
     },
-    	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-
+    	
+{
+  "type" : "clickElement",
+	"locator" : {
+	"type" : "css selector",
+	"value" : "em"
+	}
+	},
     
     	{
       "type": "pause",
@@ -282,7 +285,13 @@
       },
       "text": "true"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "em"
+      }
+    },
    
     {
       "type": "clickElement",
@@ -322,13 +331,7 @@
       },
       "text": "english"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='language_value']/select//option[2]"
-      }
-    },
+   
     {
       "type": "clickElement",
       "locator": {
@@ -339,206 +342,118 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
         "type": "xpath",
-        "value": "//td[@id='returndrivingdirections_value']//select[.='-Select an option-TrueFalse']//option[2]"
+        "value": "//*[@id='input_mapvendor_in_mappinganddrivingdirections_chzn']/a/div/b"
       }
     },
-    {
-      "type": "clickElement",
+		{
+      "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "input_returndrivingdirections_in_mappinganddrivingdirections_chzn_o_1"
-      }
+        "type": "css selector",
+        "value": "#input_mapvendor_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "google maps"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='returnroutegeometry_value']//select[.='-Select an option-TrueFalse']//option[2]"
+        "value": "#input_mapvendor_in_mappinganddrivingdirections_chzn_o_3 > em"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "input_returnroutegeometry_in_mappinganddrivingdirections_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='input_platform_in_mappinganddrivingdirections_chzn']/a/div/b"
       }
     },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_platform_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "chameleon Hosted"
+    },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='language_value']/select//option[2]"
+        "value": "#input_platform_in_mappinganddrivingdirections_chzn_o_3 > em"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "input_language_in_mappinganddrivingdirections_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='input_proximity_in_mappinganddrivingdirections_chzn']/a/div/b"
       }
     },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_proximity_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "Drive Time"
+    },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='mapvendor_value']/select//option[2]"
+        "value": "#input_proximity_in_mappinganddrivingdirections_chzn_o_2 > em"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "input_mapvendor_in_mappinganddrivingdirections_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='input_roadpreference_in_mappinganddrivingdirections_chzn']/a/div/b"
       }
     },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_roadpreference_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "Local"
+    },
+   
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
+        "value": "#input_roadpreference_in_mappinganddrivingdirections_chzn_o_2 > em"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='platform_value']/select//option[2]"
-      }
-    },
-    {
+		{
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "input_platform_in_mappinganddrivingdirections_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='input_routepreference_in_mappinganddrivingdirections_chzn']/a/div/b"
       }
     },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_routepreference_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "Local"
+    },
+   
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
+        "value": "#input_routepreference_in_mappinganddrivingdirections_chzn_o_2 > em"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='proximity_value']/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_proximity_in_mappinganddrivingdirections_chzn_o_1"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='roadpreference_value']/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_roadpreference_in_mappinganddrivingdirections_chzn_o_1"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='routepreference_value']/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_routepreference_in_mappinganddrivingdirections_chzn_o_1"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_new_locatorinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "change"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='radiusuom_value']/select//option[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_radiusuom_in_locatorconfiguration_chzn_o_2"
-      }
-    },
+		
     {
       "type": "clickElement",
       "locator": {
