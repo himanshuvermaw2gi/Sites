@@ -75,6 +75,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "9000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
