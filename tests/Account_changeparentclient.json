@@ -71,7 +71,7 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Account"
+        "value": "Accounts"
       }
     },
 		{
