@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -70,8 +70,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Accounts\"]"
+        "type": "link text",
+        "value": "Account"
       }
     },
 		{
@@ -87,64 +87,31 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "css selector",
-        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
+        "type": "xpath",
+        "value": "//div[@id='page_header']//select[.='accountdennysdennys']//option[1]"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_clientcontactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_edit_in_clientcontactinformation_0"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_title_in_contactdetails"
-      },
-      "text": "test123"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_contents"
+        "type": "xpath",
+        "value": "//div[@id='page_header']/ul/li[2]/input"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_edit_clientcontactinformation_0"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "action_save_new_parent_in_new_parent_0"
       }
     },
 		{
