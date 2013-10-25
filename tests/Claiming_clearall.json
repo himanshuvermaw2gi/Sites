@@ -74,7 +74,7 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-		{
+    {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -82,33 +82,39 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "global_directives"
-      },
-      "text": "test123345"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "save"
+        "value": "Scheduled"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "css selector",
+        "value": "tr.sched_row > td.sched_name"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Clear All"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "tr.sched_row > td.sched_name"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Clear All"
       }
     },
 		{
