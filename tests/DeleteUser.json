@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -76,81 +76,13 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='group_results_list']/li[9]/ul/li[2]/img"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "name"
-      },
-      "text": "w2gi123"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1072407522_select"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1072407326_select"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "save_all_menu"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1073903828_select"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "save_all_report"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1014777573_select"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1014777573_insert"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "save_all_table"
+        "value": "//ul[@id='user_results_list']/li[14]/ul/li[3]/img"
       }
     },
 		{
