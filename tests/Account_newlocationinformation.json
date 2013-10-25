@@ -468,13 +468,7 @@
       },
       "text": "Miles"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='radiusuom_value']/select//option[3]"
-      }
-    },
+   
     {
       "type": "clickElement",
       "locator": {
