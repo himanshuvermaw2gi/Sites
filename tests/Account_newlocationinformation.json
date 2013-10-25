@@ -197,12 +197,9 @@
       },
       "text": "hour"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='timeuom_value']/select//option[4]"
-      }
+    	{
+      "type": "pause",
+      "waitTime": "2000"
     },
 
     {
@@ -212,12 +209,20 @@
         "value": "input_timeuom_in_locatorconfiguration_chzn_o_1"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "input_demo_in_authorizedfeatures"
       }
+    },
+    	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementSelected",
