@@ -453,6 +453,35 @@
         "value": "#input_routepreference_in_mappinganddrivingdirections_chzn_o_2 > em"
       }
     },
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_radiusuom_in_locatorconfiguration_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_radiusuom_in_locatorconfiguration_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "Miles"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='radiusuom_value']/select//option[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "em"
+      }
+    },
 		
     {
       "type": "clickElement",
