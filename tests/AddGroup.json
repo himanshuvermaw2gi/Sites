@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -76,20 +76,20 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "strong.clickable"
+        "type": "xpath",
+        "value": "//ul[@id='list_box_container']//strong[.='Add Group']"
       }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "username"
+        "value": "name"
       },
       "text": "w2gi"
     },
@@ -97,95 +97,18 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "Add_person"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "firstname"
-      },
-      "text": "w2gi"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "lastname"
-      },
-      "text": "panalinks"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "emailaddress"
-      },
-      "text": "w2gi@panalinks.com"
-    },
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "id",
-        "value": "loginname"
-      },
-      "text": "amar"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "title"
-      },
-      "text": "test12"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "passwd"
-      },
-      "text": "Pana@95"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "createrole"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "defaulttheme"
-      },
-      "text": "red"
-    },
-    
-   
-   
-    
-		{
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "Add_person"
+        "value": "Add_group"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+      "type": "verifyTextPresent",
+      "text": "w2gi Add Group to User"
     },
-    {
+		{
       "type": "pause",
       "waitTime": "4000"
     }
