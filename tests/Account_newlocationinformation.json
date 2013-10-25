@@ -289,7 +289,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "em"
+        "value": "#input_returndrivingdirections_in_mappinganddrivingdirections_chzn_o_1 > em"
       }
     },
    
@@ -443,7 +443,7 @@
         "type": "css selector",
         "value": "#input_routepreference_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
       },
-      "text": "Shortest"
+      "text": "Local"
     },
    
     {
