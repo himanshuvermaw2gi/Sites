@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -82,24 +82,65 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='user_results_list']/li[14]/ul/li[2]/img"
+        "value": "//ul[@id='group_results_list']/li[9]/ul/li[2]/img"
       }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "firstname"
+        "value": "name"
       },
       "text": "w2gi123"
     },
     {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "title"
-      },
-      "text": "test1"
+        "value": "1072407522_select"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "1072407326_select"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save_all_menu"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "1073903828_select"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save_all_report"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "1014777573_select"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "1014777573_insert"
+      }
     },
 		{
       "type": "pause",
@@ -109,7 +150,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "Update_person"
+        "value": "save_all_table"
       }
     },
 		{
