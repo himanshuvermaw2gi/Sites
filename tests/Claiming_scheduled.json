@@ -74,76 +74,51 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-    
-		{
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Scheduled"
+        "value": "History"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//form[@id='ldsschedule']/table[1]/tbody/tr[1]/td[2]/select//option[4]"
+        "type": "css selector",
+        "value": "#job_history_table > #collection_ldshistory > tbody > tr.lightwindow.clickable > td"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "countries"
-      },
-      "text": "AL"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[1]/td[2]/ul/li[1]/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[1]/select//option[3]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "recipients"
-      },
-      "text": "w2gi@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "add_sched"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-    	{
-      "type": "pause",
-      "waitTime": "4000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='job_history_table']//td[.='1078268866']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='job_history_table']//td[.='1075044104']"
+      }
     },
     {
       "type": "clickElement",
