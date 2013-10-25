@@ -74,17 +74,6 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-    	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "History"
-      }
-    },
 		{
       "type": "pause",
       "waitTime": "2000"
@@ -92,37 +81,27 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "link text",
+        "value": "Scheduled"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "css selector",
-        "value": "#job_history_table > #collection_ldshistory > tbody > tr.lightwindow.clickable > td"
+        "value": "tr.sched_row > td.sched_name"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "link text",
+        "value": "Delete Scheduled Post"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='job_history_table']//td[.='1078268866']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='job_history_table']//td[.='1075044104']"
-      }
+		{
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
