@@ -270,6 +270,75 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_returndrivingdirections_in_mappinganddrivingdirections_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_returndrivingdirections_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "true"
+    },
+    
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_returnroutegeometry_in_mappinganddrivingdirections_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_returnroutegeometry_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "true"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_returnroutegeometry_in_mappinganddrivingdirections_chzn_o_1 > em"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_language_in_mappinganddrivingdirections_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_language_in_mappinganddrivingdirections_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "english"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='language_value']/select//option[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#input_language_in_mappinganddrivingdirections_chzn_o_1 > em"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "css selector",
         "value": "a.chzn-single.chzn-single-with-drop > div > b"
       }
