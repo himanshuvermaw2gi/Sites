@@ -116,7 +116,7 @@
     },
     	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "8000"
     },
     {
       "type": "setElementSelected",
@@ -131,7 +131,7 @@
         "type": "id",
         "value": "input_note_in_notearea"
       },
-      "text": "test"
+      "text": "test12"
     },
     {
       "type": "clickElement",
