@@ -110,70 +110,7 @@
         "type": "id",
         "value": "action_save_edit_clientdetails_0"
       }
-    },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "input_msaautorenewal_in_legalinformation"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_clientdetails_0"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_msaautorenewalfrequency_in_legalinformation"
-      },
-      "text": "1"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "input_ondemand_in_legalinformation"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_clientdetails_0"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
     }
+     
   ]
 }
