@@ -32,7 +32,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
 
     {
@@ -66,7 +66,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
 
     {
@@ -78,25 +78,26 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Locator Information"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "5000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='page_header']/ul/li[3]/input"
+        "value": "action_view_in_locatorinformation_0"
       }
     },
  {
@@ -108,9 +109,79 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_edit_clientdetails_0"
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_locatorinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_edit_in_locatorinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_edit_locatorinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_locatorinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_delete_in_locatorinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_delete_locatorinformation_0"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     }
-     
   ]
 }
