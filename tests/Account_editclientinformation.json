@@ -93,6 +93,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "9000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -127,49 +131,7 @@
         "value": "action_save_edit_contactinformation_0"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "subsection_contactaddress"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#input_country_in_contactaddress_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
-      },
-      "text": ""
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#input_country_in_contactaddress_chzn > a.chzn-single > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@id='country_in_contactaddress']/td[2]/select//option[58]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_country_in_contactaddress_chzn_o_57"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
