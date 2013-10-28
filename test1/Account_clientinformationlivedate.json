@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
- {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -64,7 +64,7 @@
         "value": "change_account"
       }
     },
- {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -76,31 +76,66 @@
         "value": "img[alt=\"Accounts\"]"
       }
     },
- {
+{
       "type": "pause",
       "waitTime": "4000"
     },
 
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "table_label_productsinformation"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_edit_in_productsinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_new_productsinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "input_golivedate_in_productsinformation"
+      }
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Locator Information"
+        "value": "26"
       }
     },
- {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_view_in_locatorinformation_0"
+        "value": "action_save_new_productsinformation_0"
       }
     },
- {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -112,83 +147,39 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
- {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_locatorinformation_0"
+        "type": "css selector",
+        "value": "#table_label_notesinformation > span.icon-chevron-down"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_edit_in_locatorinformation_0"
+        "type": "css selector",
+        "value": "#table_label_contactinformation > span.icon-chevron-down"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_save_edit_locatorinformation_0"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_locatorinformation_0"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_delete_in_locatorinformation_0"
+        "type": "css selector",
+        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_delete_locatorinformation_0"
+        "type": "css selector",
+        "value": "#table_label_contractinformation > span.icon-chevron-down"
       }
     },
- {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "css selector",
+        "value": "#table_label_invoiceinformation > span.icon-chevron-down"
       }
     }
   ]
