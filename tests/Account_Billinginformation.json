@@ -128,8 +128,12 @@
       }
     },
     {
+    	"type" : "acceptAlert"
+    },
+    }
+    {
       "type": "pause",
-      "waitTime": "20000"
+      "waitTime": "5000"
     },
     
     {
