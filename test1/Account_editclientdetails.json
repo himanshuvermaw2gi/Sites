@@ -111,9 +111,16 @@
         "value": "action_save_edit_clientdetails_0"
       }
     },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "9000"
     },
     {
       "type": "setElementSelected",
