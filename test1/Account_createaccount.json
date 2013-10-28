@@ -1,4 +1,3 @@
-
 {
   "type": "script",
   "seleniumVersion": "2",
@@ -77,6 +76,11 @@
         "value": "img[alt=\"Accounts\"]"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "doubleClickElement",
       "locator": {
