@@ -161,34 +161,7 @@
       },
       "text": "panalinks12"
     },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='salutation_value']//select[.='-Select an option-Mr.Ms.']//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_salutation_in_contactdetails_chzn_o_1"
-      }
-    },
+    
     {
       "type": "setElementText",
       "locator": {
