@@ -132,14 +132,7 @@
       "waitTime": "4000"
     },
     
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_firstname_in_contactdetails']"
-      },
-      "text": "amar panalinks"
-    },
+    
     
     {
       "type": "sendKeysToElement",
