@@ -157,6 +157,46 @@
       }
     },
     {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_workphone_in_contactnumber']"
+      },
+      "text": "00000000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_cellphone_in_contactnumber']"
+      },
+      "text": "00000000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_businessphone_in_contactnumber']"
+      },
+      "text": "00000000"
+    },
+		{
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_fax_in_contactnumber']"
+      },
+      "text": "00000000"
+    },
+		{
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_homephone_in_contactnumber']"
+      },
+      "text": "00000000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
