@@ -132,13 +132,7 @@
       }
     },
     
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_contactinformation_0"
-      }
-    },
+   
     {
       "type": "setElementText",
       "locator": {
@@ -178,11 +172,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -204,6 +206,10 @@
         "type": "id",
         "value": "action_delete_contactinformation_0"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
