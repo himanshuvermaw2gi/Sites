@@ -33,7 +33,7 @@
  {
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
 
     {
       "type": "clickElement",
@@ -67,7 +67,7 @@
  {
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
 
     {
       "type": "clickElement",
@@ -79,7 +79,7 @@
  {
       "type": "pause",
       "waitTime": "3000"
-    }
+    },
 
     {
       "type": "clickElement",
@@ -98,7 +98,7 @@
  {
       "type": "pause",
       "waitTime": "4000"
-    }
+    },
 
     {
       "type": "clickElement",
@@ -117,7 +117,7 @@
  {
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
 
     {
       "type": "clickElement",
@@ -151,7 +151,7 @@
  {
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
 
     {
       "type": "clickElement",
