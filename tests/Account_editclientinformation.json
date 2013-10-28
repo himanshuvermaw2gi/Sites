@@ -228,27 +228,7 @@
       "type": "pause",
       "waitTime": "7000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "table_label_contactinformation"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_contactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_edit_in_contactinformation_0"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
