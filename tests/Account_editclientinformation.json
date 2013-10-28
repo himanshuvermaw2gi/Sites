@@ -215,17 +215,8 @@
       "type": "pause",
       "waitTime": "9000"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='salutation_value']//select[.='-Select an option-Mr.Ms.']//option[2]"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "9000"
-    },
+   
+    
     {
       "type": "clickElement",
       "locator": {
