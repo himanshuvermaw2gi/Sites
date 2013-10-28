@@ -194,27 +194,7 @@
       },
       "text": "00000000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@id='state_in_contactaddress']/td[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "input_state_in_contactaddress_chzn_o_1"
-      }
-    },
+    
     {
       "type": "doubleClickElement",
       "locator": {
