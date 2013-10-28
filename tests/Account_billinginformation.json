@@ -30,10 +30,11 @@
         "value": "submit"
       }
     },
-		{
+{
       "type": "pause",
       "waitTime": "4000"
-    },
+    }
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,20 +64,29 @@
         "value": "change_account"
       }
     },
-		{
+{
       "type": "pause",
       "waitTime": "4000"
-    },
+    }
+
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Accounts\"]"
+        "value": "img[alt=\"Syndicate\"]"
       }
     },
-    	{
+{
       "type": "pause",
       "waitTime": "4000"
+    }
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "AccountsAccounts"
+      }
     },
     {
       "type": "clickElement",
@@ -85,138 +95,92 @@
         "value": "NotActiveTab"
       }
     },
-     {
+{
       "type": "pause",
       "waitTime": "4000"
+    }
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_new_in_clientcontactinformation"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_emailaddress_in_clientcontactinformation"
+      },
+      "text": "w2gi@panalinks.com"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_check_in_clientcontactinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_new_clientcontactinformation_0"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_firstname_in_contactdetails"
+      },
+      "text": "w2gi"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "input_middlename_in_contactdetails"
+      },
+      "text": "\\9"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_lastname_in_contactdetails"
+      },
+      "text": "panalinks"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.chzn-single.chzn-single-with-drop > div > b"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#table_label_contactinformation > span.icon-chevron-down"
+        "value": "a.chzn-single.chzn-single-with-drop > div > b"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "10000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_view_in_contactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_contactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_edit_in_contactinformation_0"
-      }
-    },
-   
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_middlename_in_contactdetails"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_title_in_contactdetails"
-      },
-      "text": "testpanalinks"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_birthdate_in_contactdetails"
-      },
-      "text": ""
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "29"
-      }
-    },
-    {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='input_workphone_in_contactnumber']"
-      },
-      "text": "00000000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_cellphone_in_contactnumber']"
-      },
-      "text": "00000000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_businessphone_in_contactnumber']"
-      },
-      "text": "00000000"
-    },
-		{
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_fax_in_contactnumber']"
-      },
-      "text": "00000000"
-    },
-		{
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_homephone_in_contactnumber']"
-      },
-      "text": "00000000"
-    },
-     {
-      "type": "pause",
-      "waitTime": "6000"
-    },
-        {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_salutation_in_contactdetails_chzn']/a/div/b"
+        "value": "//td[@id='salutation_value']//select[.='-Select an option-Mr.Ms.']//option[2]"
       }
     },
-     {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-   
-    
     {
       "type": "clickElement",
       "locator": {
@@ -225,39 +189,103 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "7000"
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_title_in_contactdetails"
+      },
+      "text": "test"
     },
-    
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_workphone_in_contactnumber"
+      },
+      "text": "00000000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_cellphone_in_contactnumber"
+      },
+      "text": "00000000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_fax_in_contactnumber"
+      },
+      "text": "00000000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.default"
+        "value": "a.chzn-single.chzn-single-with-drop > div > b"
       }
-    },
-    	{
-      "type": "pause",
-      "waitTime": "7000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_2']"
+        "value": "//tr[@id='state_in_contactaddress']/td[2]/select//option[2]"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_edit_contactinformation_0"
+        "value": "input_state_in_contactaddress_chzn_o_1"
       }
     },
-   
     {
-      "type": "pause",
-      "waitTime": "4000"
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "subsection_contactaddress"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_postalcode_in_contactaddress"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_city_in_contactaddress"
+      },
+      "text": "cuda"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_address1_in_contactaddress"
+      },
+      "text": "test"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_address2_in_contactaddress"
+      },
+      "text": "test"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_new_clientcontactinformation_0"
+      }
     },
     {
       "type": "clickElement",
@@ -267,44 +295,11 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_contactinformation_0"
+        "type": "css selector",
+        "value": "#table_label_contractinformation > span.icon-chevron-down"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_delete_in_contactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_delete_contactinformation_0"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
     }
   ]
 }
