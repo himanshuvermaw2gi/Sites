@@ -124,14 +124,6 @@
         "value": "action_edit_in_contactinformation_0"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_contactinformation_0"
-      }
-    },
-    
    
     {
       "type": "setElementText",
