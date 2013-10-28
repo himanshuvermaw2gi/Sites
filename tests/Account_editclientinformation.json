@@ -236,6 +236,10 @@
         "value": "input.default"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "7000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
