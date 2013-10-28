@@ -74,6 +74,10 @@
         "value": "img[alt=\"Accounts\"]"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
