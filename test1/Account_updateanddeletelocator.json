@@ -139,6 +139,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -156,6 +160,10 @@
         "type": "id",
         "value": "action_more_actions_in_locatorinformation_0"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
