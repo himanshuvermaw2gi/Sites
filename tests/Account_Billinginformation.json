@@ -130,7 +130,7 @@
     {
     	"type" : "acceptAlert"
     },
-    }
+    
     {
       "type": "pause",
       "waitTime": "5000"
