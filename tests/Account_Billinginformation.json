@@ -131,14 +131,16 @@
       "type": "pause",
       "waitTime": "4000"
     },
+    
     {
-      "type": "setElementText",
+      "type": "sendKeysToElement",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='input_firstname_in_contactdetails']"
       },
-      "text": "testpanalinks"
+      "text": "amar panalinks"
     },
+    
     {
       "type": "sendKeysToElement",
       "locator": {
