@@ -135,7 +135,7 @@
         "type": "id",
         "value": "input_middlename_in_contactdetails"
       },
-      "text": "dfhgfh"
+      "text": "test"
     },
     {
       "type": "setElementText",
@@ -143,7 +143,7 @@
         "type": "id",
         "value": "input_title_in_contactdetails"
       },
-      "text": "fghgfhj"
+      "text": "testpanalinks"
     },
     {
       "type": "setElementText",
@@ -224,6 +224,17 @@
         "value": "input_salutation_in_contactdetails_chzn_o_1"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_edit_contactinformation_0"
+      }
+    },
+    {
+    	"type": "acceptAlert"
+    },
+    }
     {
       "type": "clickElement",
       "locator": {
