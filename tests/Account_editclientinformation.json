@@ -196,6 +196,31 @@
       },
       "text": "00000000"
     },
+     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+        {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_salutation_in_contactdetails_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='salutation_value']//select[.='-Select an option-Mr.Ms.']//option[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "input_salutation_in_contactdetails_chzn_o_1"
+      }
+    },
     {
       "type": "clickElement",
       "locator": {
