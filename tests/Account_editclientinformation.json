@@ -301,6 +301,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
