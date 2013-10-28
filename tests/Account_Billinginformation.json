@@ -134,10 +134,10 @@
     {
       "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "input_firstname_in_contactdetails"
+        "type": "xpath",
+        "value": "//*[@id='input_firstname_in_contactdetails']"
       },
-      "text": "w2gi3"
+      "text": "testpanalinks"
     },
     {
       "type": "sendKeysToElement",
