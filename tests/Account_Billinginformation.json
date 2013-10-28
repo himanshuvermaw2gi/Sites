@@ -112,9 +112,7 @@
       },
       "text": "w2gi3@panalinks.com"
     },
-		{
-		"type" : "acceptAlert"
-		},
+		
     {
       "type": "clickElement",
       "locator": {
