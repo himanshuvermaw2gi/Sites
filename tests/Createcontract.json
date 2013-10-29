@@ -281,53 +281,12 @@
         "value": "product_chk_1076046764_description"
       }
     },
-   
+   {
+      "type": "pause",
+      "waitTime": "5000"
+    },
      
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046759_0417420939948845 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_235467_07508566858707086 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046755_05549778819072424 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046763_05657686907732759 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
+         {
       "type": "setElementText",
       "locator": {
         "type": "id",
