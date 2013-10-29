@@ -141,22 +141,7 @@
       }
     },
     
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contractRenewalFreq"
-      },
-      "text": "12"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "contractRenewalOnDemand"
-      }
-    },
-    {
+       {
       "type": "setElementText",
       "locator": {
         "type": "id",
