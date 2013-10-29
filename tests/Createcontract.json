@@ -85,6 +85,10 @@
         "value": "Contract Builder"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "setElementText",
       "locator": {
