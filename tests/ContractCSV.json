@@ -30,10 +30,10 @@
         "value": "submit"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+{
+"type" : "pause"
+"waitTime" : "4000"
+},
     {
       "type": "clickElement",
       "locator": {
@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_77"
       }
     },
     {
@@ -63,10 +63,11 @@
         "value": "change_account"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+{
+"type" : "pause"
+"waitTime" : "4000"
+},
+
     {
       "type": "clickElement",
       "locator": {
@@ -74,22 +75,23 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+{
+"type" : "pause"
+"waitTime" : "3000"
+},
+
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Facebook Login"
+        "value": "Account Management"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "fbLogin"
+        "type": "link text",
+        "value": "Download Contract CSV"
       }
     }
   ]
