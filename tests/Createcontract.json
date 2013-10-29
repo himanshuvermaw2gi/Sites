@@ -270,6 +270,10 @@
         "value": "//ul[@id='availableProductListDescription']//label[.='   Mobile Locator ']"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "10000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
