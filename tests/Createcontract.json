@@ -286,23 +286,12 @@
       "waitTime": "5000"
     },
      
-         {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046754_09459730587336924"
-      },
-      "text": "0.00"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+        
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "button.Button"
+        "type": "xpath",
+        "value": "//*[@id='generateStep']/ul/li[1]/button"
       }
     },
 	{
