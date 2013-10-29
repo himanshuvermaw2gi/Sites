@@ -30,13 +30,10 @@
         "value": "submit"
       }
     },
-    
-    {
-"type" : "pause"
-"waitTime" : "3000"
-},
-
-
+	 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -66,11 +63,10 @@
         "value": "change_account"
       }
     },
-{
-"type" : "pause"
-"waitTime" : "3000"
-},
-
+	 {
+      "type": "pause",
+      "waitTime": "4000"
+    },
 
     {
       "type": "clickElement",
@@ -79,11 +75,6 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-{
-"type" : "pause"
-"waitTime" : "3000"
-},
-
 
     {
       "type": "clickElement",
@@ -99,10 +90,9 @@
         "value": "Download Contract CSV"
       }
     },
-    {
-               "type": "pause"
-               "waitTime": "3000"
-}
-
+	 {
+      "type": "pause",
+      "waitTime": "4000"
+    }
   ]
 }
