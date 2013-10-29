@@ -112,7 +112,7 @@
         "value": "contractStart"
       }
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
