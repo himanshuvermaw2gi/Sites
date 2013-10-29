@@ -281,40 +281,8 @@
         "value": "product_chk_1076046764_description"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "10000"
-    },
    
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "feature_1076918465_07880171351709723"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "10000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "feature_name_1076918468_015197091763440684"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "10000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "feature_1076918468_015197091763440684"
-      }
-    },
+     
      {
       "type": "pause",
       "waitTime": "3000"
