@@ -31,6 +31,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -60,11 +64,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "img[alt=\"AdminTools\"]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
