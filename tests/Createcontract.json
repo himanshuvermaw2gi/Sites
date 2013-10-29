@@ -105,25 +105,11 @@
       },
       "text": "test1"
     },
-    {
+     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "contractStart"
-      }
-    },
-   {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@class='headrow']//div[.='»']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@class='headrow']//div[.='«']"
       }
     },
     {
@@ -138,6 +124,13 @@
       "locator": {
         "type": "id",
         "value": "contractEnd"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[8]/table/thead/tr[2]/td[4]/div"
       }
     },
     
