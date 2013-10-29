@@ -140,13 +140,7 @@
         "value": "contractEnd"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "autorenew"
-      }
-    },
+    
     {
       "type": "setElementText",
       "locator": {
