@@ -115,6 +115,27 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='headrow']//div[.='»']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='headrow']//div[.='«']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='headrow']//div[.='›']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "id",
         "value": "contractEnd"
       }
