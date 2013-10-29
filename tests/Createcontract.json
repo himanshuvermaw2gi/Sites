@@ -279,15 +279,9 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='product_form_1076046754_09459730587336924']//label[.='   GeoIP ']"
-      }
-    },
+   
     {
       "type": "setElementSelected",
       "locator": {
