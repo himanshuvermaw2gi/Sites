@@ -75,6 +75,11 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
 
     {
       "type": "clickElement",
