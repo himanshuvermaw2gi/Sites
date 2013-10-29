@@ -109,7 +109,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "10000"
     },
     {
       "type": "clickElement",
@@ -130,24 +130,13 @@
       },
       "text": "dennys"
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='accounts_header_cell_1']/ul/li[1]/select//option[79]"
-      }
-    },
-    {
+        {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_dropdown_1_chzn_o_78"
+        "type": "css selector",
+        "value": "#accounts_dropdown_1_chzn_o_78 > em"
       }
-    },
+    },  
     {
       "type": "pause",
       "waitTime": "3000"
@@ -161,7 +150,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -169,10 +158,6 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
     }
   ]
 }
