@@ -85,28 +85,6 @@
         "value": "Competitive Analysis Builder"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "generate_report_button"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
     {
       "type": "pause",
       "waitTime": "10000"
@@ -136,10 +114,10 @@
         "type": "css selector",
         "value": "#accounts_dropdown_1_chzn_o_78 > em"
       }
-    },  
-    {
+    },
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -148,7 +126,7 @@
         "value": "generate_report_button"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -159,5 +137,7 @@
         "value": "lightwindow_title_bar_close_link"
       }
     }
+      
+    
   ]
 }
