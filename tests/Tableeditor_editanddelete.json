@@ -125,11 +125,15 @@
         "value": "//div[@id='rows']/table/tbody/tr[2]/td[1]/ul/li[1]/img"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='edit_row_button']"
+        "type": "css selector",
+        "value": "#edit_row_form > #edit_row_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock.marginT-30 > li > #edit_row_button"
       }
     },
 	{
