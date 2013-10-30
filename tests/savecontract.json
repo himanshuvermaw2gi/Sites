@@ -124,18 +124,7 @@
     },
     
    
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046753_05000272293943777"
-      },
-      "text": "0.00"
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
+   
     {
       "type": "clickElement",
       "locator": {
