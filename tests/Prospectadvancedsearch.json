@@ -298,7 +298,8 @@
       "locator": {
         "type": "id",
         "value": "location_address1"
-      }
+      },
+       "text": "Atlantic apparel, South Compania"
     },
     
     {
