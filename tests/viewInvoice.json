@@ -32,7 +32,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -76,43 +76,20 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Competitive Analysis Builder"
+        "value": "Invoice Approval"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "10000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_1_chzn']/a/div/b"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#accounts_dropdown_1_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
-      },
-      "text": "dennys"
-    },
-        {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#accounts_dropdown_1_chzn_o_78 > em"
+        "type": "id",
+        "value": "action_view_in_invoiceinformation_0"
       }
     },
 	{
@@ -123,21 +100,12 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "generate_report_button"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+      "waitTime": "5000"
     }
-      
-    
   ]
 }
