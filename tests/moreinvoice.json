@@ -137,32 +137,10 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_invoiceinformation_0"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
         "value": "action_needpo_in_invoiceinformation_0"
       }
     },
-    {
+     {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -177,14 +155,14 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
+     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "action_more_actions_in_invoiceinformation_0"
       }
     },
-    {
+     {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -208,6 +186,39 @@
     },
     {
       "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_approved_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "pause",
       "waitTime": "2000"
     },
     {
@@ -225,7 +236,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_approved_in_invoiceinformation_0"
+        "value": "action_collection_in_invoiceinformation_0"
       }
     },
     {
