@@ -277,11 +277,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "feature_name_1076918467_039645379912545453"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
     },
     {
       "type": "setElementSelected",
