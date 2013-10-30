@@ -107,7 +107,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "curr_tables_chzn_o_4 > em"
+        "value": "curr_tables_chzn_o_4"
       }
     },
     {
