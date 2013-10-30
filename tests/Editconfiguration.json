@@ -110,6 +110,10 @@
         "type": "css selector",
         "value": "input.Button.btn-confirm"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
