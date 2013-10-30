@@ -113,8 +113,16 @@
       "text": "Previous"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "Next"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
