@@ -123,7 +123,7 @@
     {
       "type": "pause",
       "waitTime": "4000"
-    }
+    },
     {
       "type": "verifyTextPresent",
       "text": "Products"
