@@ -280,46 +280,7 @@
       "type": "pause",
       "waitTime": "7000"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046754_036502795054099313 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046764_0251054649679029 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046760_07399456301135524 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_235467_05724271437178517 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_form_1076046759_02384171748699203 > textarea[name=\"product_notes\"]"
-      },
-      "text": "test"
-    },
+    
     {
       "type": "setElementText",
       "locator": {
