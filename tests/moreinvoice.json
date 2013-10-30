@@ -33,7 +33,7 @@
 	{
       "type": "pause",
       "waitTime": "3000"
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -66,7 +66,7 @@
 	{
       "type": "pause",
       "waitTime": "3000"
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -77,7 +77,7 @@
 	{
       "type": "pause",
       "waitTime": "3000"
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -88,7 +88,7 @@
 	{
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -99,7 +99,7 @@
 	{
       "type": "pause",
       "waitTime": "5000"
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -115,11 +115,26 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "action_more_actions_in_invoiceinformation_0"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -134,6 +149,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -155,6 +174,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
