@@ -125,13 +125,10 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#search_row_button"
-      }
+      "type": "pause",
+      "waitTime": "5000"
     },
-    {
+       {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
