@@ -122,18 +122,8 @@
       "type": "pause",
       "waitTime": "7000"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046762_012909386451746996"
-      },
-      "text": "849"
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
+    
+   
     {
       "type": "setElementText",
       "locator": {
