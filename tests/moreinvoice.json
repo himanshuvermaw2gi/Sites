@@ -33,7 +33,7 @@
 	{
       "type": "pause",
       "waitTime": "3000"
-    },
+    }
     {
       "type": "clickElement",
       "locator": {
@@ -66,7 +66,7 @@
 	{
       "type": "pause",
       "waitTime": "3000"
-    },
+    }
     {
       "type": "clickElement",
       "locator": {
@@ -74,53 +74,108 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "3000"
-    },
+    }
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
+        "type": "link text",
+        "value": "Invoice Approval"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
-    },
+      "waitTime": "5000"
+    }
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='curr_tables_chzn']/a/div/b"
+        "type": "id",
+        "value": "action_more_actions_in_invoiceinformation_0"
       }
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#curr_tables_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
-      },
-      "text": "campaign"
-    },
+	{
+      "type": "pause",
+      "waitTime": "5000"
+    }
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "em"
+        "type": "id",
+        "value": "action_draft_in_invoiceinformation_0"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "change_table"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "3000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_needpo_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_withissue_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_more_actions_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_approved_in_invoiceinformation_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
     }
   ]
 }
