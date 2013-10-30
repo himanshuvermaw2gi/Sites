@@ -286,6 +286,10 @@
       "text": "Medley"
     },
     {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -293,11 +297,8 @@
       }
     },
     {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='state_td']/select//option[0]"
-      }
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
@@ -305,6 +306,10 @@
         "type": "xpath",
         "value": "//td[@id='state_td']/select//option[0]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
