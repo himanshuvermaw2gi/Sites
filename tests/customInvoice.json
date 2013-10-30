@@ -281,53 +281,7 @@
       "waitTime": "7000"
     },
     
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046754_036502795054099313"
-      },
-      "text": "00.00"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046764_0251054649679029"
-      },
-      "text": "00.00"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046760_07399456301135524"
-      },
-      "text": "00.00"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_235467_05724271437178517"
-      },
-      "text": "00.00"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "product_price_fee_1076046759_02384171748699203"
-      },
-      "text": "00.00"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "total_fee"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
