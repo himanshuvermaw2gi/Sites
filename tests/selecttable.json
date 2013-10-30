@@ -32,7 +32,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -73,10 +73,6 @@
         "type": "css selector",
         "value": "img[alt=\"AdminTools\"]"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -87,7 +83,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -107,8 +103,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "curr_tables_chzn_o_4"
+        "type": "css selector",
+        "value": "em"
       }
     },
     {
@@ -119,17 +115,6 @@
       }
     },
 	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='rows']/table/tbody/tr[1]/td[1]/ul/li[2]/img"
-      }
-    },
-    	{
       "type": "pause",
       "waitTime": "3000"
     }
