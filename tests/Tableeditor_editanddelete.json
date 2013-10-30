@@ -151,11 +151,19 @@
       "text": "testing"
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "#edit_row_button"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -166,6 +174,10 @@
       "text": ""
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -173,8 +185,8 @@
       }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "unexpected error: unknown error code: 242P01 detail: relation \"w2gi.storelocator_mv\" does not exist LINE 1: ... NULL AS subscriptionuid, ''::TEXT, ''::TEXT FROM w2gi.store..."
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
@@ -190,6 +202,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
