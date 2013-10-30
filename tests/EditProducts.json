@@ -121,6 +121,10 @@
       "text": "Show 25 50 100 results per page"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    }
+    {
       "type": "verifyTextPresent",
       "text": "Products"
     },
