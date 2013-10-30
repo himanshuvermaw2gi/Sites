@@ -53,7 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
+        "value": "#accounts_chzn_o_77"
       }
     },
     {
