@@ -42,6 +42,13 @@
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div > b"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
@@ -76,65 +83,30 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Contract Builder"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p[3]/select//option[16]"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.='   Android App ']"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "product_chk_1076046753"
-      }
+        "value": "search_name"
+      },
+      "text": "wafflehouse"
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "1000"
     },
-    
-   
-   
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='generateStep']/ul/li[2]/button"
+        "type": "id",
+        "value": "search_button_getlist"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -145,7 +117,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     }
   ]
 }
