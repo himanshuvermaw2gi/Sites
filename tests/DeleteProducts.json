@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-	{
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-	{
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -74,71 +74,16 @@
         "value": "img[alt=\"Etailer\"]"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "value": "input.Button.btn-delete"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "test2"
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-confirm"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Previous"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Next"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Show 25 50 100 results per page"
     },
     {
       "type": "pause",
       "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Products"
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
     }
   ]
 }
