@@ -73,9 +73,10 @@
         "type": "css selector",
         "value": "img[alt=\"AdminTools\"]"
       }
-    },{
+    },
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -86,7 +87,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -117,45 +118,20 @@
         "value": "change_table"
       }
     },
-	
 	{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='rows']/table/tbody/tr[2]/td[1]/ul/li[1]/img"
+        "value": "//div[@id='rows']/table/tbody/tr[1]/td[1]/ul/li[2]/img"
       }
     },
     	{
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#edit_row_form > #edit_row_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock.marginT-30 > li > #edit_row_button"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Record successfully updated"
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='edit_row_form']/table/tfoot/tr[1]/td/ul/li[2]/input"
-      }
+      "waitTime": "3000"
     }
-
-	
-      ]
+  ]
 }
