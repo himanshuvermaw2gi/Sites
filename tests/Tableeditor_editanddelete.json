@@ -53,7 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#accounts_chzn_o_77"
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -107,7 +107,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "curr_tables_chzn_o_4"
+        "value": "curr_tables_chzn_o_4 > em"
       }
     },
     {
@@ -117,76 +117,24 @@
         "value": "change_table"
       }
     },
-    {
+	
+	{
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#rows > #rowsTable > thead > tr > #searchSubTD > a.Button"
+        "type": "xpath",
+        "value": "//div[@id='rows']/table/tbody/tr[2]/td[1]/ul/li[1]/img"
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='edit_row_button']"
+      }
+    },
+	{
       "type": "pause",
       "waitTime": "5000"
-    },
-       {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#rows > #rowsTable > tbody > tr.body_display_row > td.centered_row > ul.liInlineBlock > li.Tooltip > img.clickable"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "uselocator_input"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "emailcolumn_input"
-      },
-      "text": "testing"
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#edit_row_button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "emailcolumn_input"
-      },
-      "text": ""
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#edit_row_button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "verifyTextPresent",
@@ -199,24 +147,11 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "xpath",
-        "value": "//div[@id='rows']/table/tbody/tr[1]/td[1]/ul/li[2]/img"
+        "value": "//form[@id='edit_row_form']/table/tfoot/tr[1]/td/ul/li[2]/input"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
     }
-  ]
+
+	
+      ]
 }
