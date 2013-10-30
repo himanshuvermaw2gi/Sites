@@ -167,13 +167,7 @@
       },
       "text": "wafflehouse"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='accounts_header_cell_2']/ul/li[1]/select//option[300]"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
