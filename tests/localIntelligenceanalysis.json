@@ -81,24 +81,9 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Flexmonster"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "id",
-        "value": "tabSave"
+        "value": "NotActiveTab"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
     }
   ]
 }
