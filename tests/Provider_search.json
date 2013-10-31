@@ -13,21 +13,6 @@
         "type": "id",
         "value": "loginid"
       },
-      "text": "qa_tester"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "password"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "loginid"
-      },
       "text": "riyer"
     },
     {
@@ -91,13 +76,13 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Online Store"
+        "value": "Providers"
       }
     },
 	{
@@ -108,7 +93,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='online-store']/table/thead/tr/td[8]/span[1]"
+        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
       }
     },
 	{
@@ -134,11 +119,15 @@
         "value": "input.Button.btn-search"
       }
     },
+	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "td > img"
+        "value": "#providers > table.ContentTable > tbody > tr > td"
       }
     },
 	{
