@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -76,7 +76,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -87,7 +87,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -98,13 +98,13 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#btnNewLocal > span"
+        "value": "#btnNewRemote > span"
       }
     },
 	{
@@ -114,13 +114,13 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "__flexmonsterPivotComponent__0"
+        "type": "link text",
+        "value": "Apply"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     }
   ]
 }
