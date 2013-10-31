@@ -82,7 +82,7 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Providers"
+        "value": "Online Store"
       }
     },
 	{
@@ -93,35 +93,70 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
+        "value": "//div[@id='online-store']//span[.='+ Add New Entry']"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "input.search-box"
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[2]/input"
       },
-      "text": "Pressurized Duster"
+      "text": "testgoogle1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "google1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[4]/input"
+      },
+      "text": "https://www.google.co.in"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[5]/input"
+      },
+      "text": "https://www.google.com"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[6]/input"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[7]/input"
+      },
+      "text": "India"
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-search"
+        "value": "input.Button.btn-confirm"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     }
   ]
 }
