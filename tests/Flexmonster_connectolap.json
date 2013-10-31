@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -98,29 +98,61 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#btnNewRemote > span"
+        "value": "#btnNewOLAP > span"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Apply"
+        "type": "id",
+        "value": "olapConnectBtn"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='olapToolForm']/tbody/tr[4]/td/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='olapToolForm']/tbody/tr[6]/td/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='olapToolForm']/tbody/tr[8]/td/select//option[3]"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "olapApplyBtn"
+      }
     }
   ]
 }
