@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "container-wrapper"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -72,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -83,41 +76,43 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Provider Rank"
-      }
-    },
-	{
-      "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
+        "type": "link text",
+        "value": "Store Rank"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "css selector",
         "value": "input.Button.btn-edit"
       }
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "3"
-    },
-    {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[3]/input"
-      },
-      "text": "64"
+        "value": "//div[@class='dialog-content']/label[2]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[6]/input"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -134,43 +129,12 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "value": "input.Button.btn-delete"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "5"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[3]/input"
-      },
-      "text": "61"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "3"
     },
 	{
       "type": "pause",
       "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-confirm"
-      }
     }
   ]
 }
