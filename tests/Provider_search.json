@@ -96,6 +96,10 @@
         "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
       }
     },
+	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "setElementText",
       "locator": {
@@ -103,6 +107,10 @@
         "value": "input.search-box"
       },
       "text": "Pressurized Duster"
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
