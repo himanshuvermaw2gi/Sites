@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "em"
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -71,68 +71,56 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Etailer\"]"
+        "value": "img[alt=\"Reports\"]"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Providers"
+        "value": "Flexmonster"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
+        "type": "id",
+        "value": "tabConnect"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "input.search-box"
-      },
-      "text": "Amazon"
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-search"
+        "value": "#btnNewLocal > span"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#providers > table.ContentTable > tbody > tr > td"
+        "type": "id",
+        "value": "__flexmonsterPivotComponent__0"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "5000"
     }
   ]
 }
