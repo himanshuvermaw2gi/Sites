@@ -76,7 +76,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -84,6 +84,10 @@
         "type": "id",
         "value": "NotActiveTab"
       }
+    },
+    	{
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
