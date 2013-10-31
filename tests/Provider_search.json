@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -76,7 +76,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -87,19 +87,33 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='providers']/table/tbody/tr[1]/td[9]/input"
+        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
       }
     },
-	{
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input.search-box"
+      },
+      "text": "Pressurized Duster"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-search"
+      }
+    },
+    {
       "type": "pause",
       "waitTime": "5000"
     }
-    
   ]
 }
