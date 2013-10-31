@@ -76,7 +76,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -87,21 +87,46 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "value": "span.add-new"
       }
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='dialog-content']/label[2]/input"
-      }
+      },
+      "text": "test_google1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "google1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[4]/input"
+      },
+      "text": "https://www.google.co.in"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[5]/input"
+      },
+      "text": "https://www.google.com"
     },
     {
       "type": "setElementSelected",
@@ -109,6 +134,61 @@
         "type": "xpath",
         "value": "//div[@class='dialog-content']/label[6]/input"
       }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[7]/input"
+      },
+      "text": "India"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[8]/input"
+      },
+      "text": "6"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[9]/input"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[10]/input"
+      },
+      "text": "test1"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[11]/input"
+      },
+      "text": "48"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[12]/input"
+      },
+      "text": "32450"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[13]/input"
+      },
+      "text": "test1"
     },
 	{
       "type": "pause",
@@ -119,17 +199,6 @@
       "locator": {
         "type": "css selector",
         "value": "input.Button.btn-confirm"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-delete"
       }
     },
 	{
