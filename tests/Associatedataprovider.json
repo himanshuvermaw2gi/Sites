@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -76,7 +83,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -87,28 +94,27 @@
     },
 	{
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "5000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "css selector",
-        "value": "span.icon-search"
+        "value": "label > input[type=\"checkbox\"]"
       }
     },
     {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
-        "type": "css selector",
-        "value": "input.search-box"
-      },
-      "text": "wafflehouse"
+        "type": "xpath",
+        "value": "//div[@id='associate-wrap']/div[1]/label[8]/input"
+      }
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-search"
+        "type": "xpath",
+        "value": "//div[@id='associate-wrap']/div[1]/label[15]/input"
       }
     },
 	{
@@ -116,16 +122,11 @@
       "waitTime": "4000"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "Data providers - Account"
-    },
-	{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "No data found"
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-save"
+      }
     }
   ]
 }
