@@ -32,7 +32,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_77"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -65,7 +65,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -87,31 +87,13 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "tabOpen"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#btnOpenCSV > span"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Apply"
+        "value": "tabSave"
       }
     },
 	{
