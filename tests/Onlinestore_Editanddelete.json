@@ -93,46 +93,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='online-store']//span[.='+ Add New Entry']"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[2]/input"
-      },
-      "text": "testgoogle1"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[3]/input"
-      },
-      "text": "google1"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[4]/input"
-      },
-      "text": "https://www.google.co.in"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[5]/input"
-      },
-      "text": "https://www.google.com"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[6]/input"
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[7]/input"
       }
     },
     {
@@ -141,11 +102,11 @@
         "type": "xpath",
         "value": "//div[@class='dialog-content']/label[7]/input"
       },
-      "text": "India"
+      "text": "USA1"
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -156,7 +117,18 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[8]/input"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
