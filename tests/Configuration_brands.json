@@ -86,23 +86,15 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-edit"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
         "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
-      },
-      "text": "test1"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
+        "value": "//div[@id='brand-wrap']/table/tbody/tr[1]/td[4]/input"
+      }
     },
     {
       "type": "clickElement",
@@ -113,7 +105,14 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-delete"
+      }
     }
   ]
 }
