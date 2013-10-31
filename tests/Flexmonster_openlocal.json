@@ -93,18 +93,18 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "tabConnect"
+        "value": "tabOpen"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#btnNewOLAP > span"
+        "value": "#btnOpenLocal > span"
       }
     },
 	{
@@ -115,44 +115,12 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "olapConnectBtn"
+        "value": "__flexmonsterPivotComponent__0"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@id='olapToolForm']/tbody/tr[4]/td/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@id='olapToolForm']/tbody/tr[6]/td/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@id='olapToolForm']/tbody/tr[8]/td/select//option[3]"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "olapApplyBtn"
-      }
+      "waitTime": "4000"
     }
   ]
 }
