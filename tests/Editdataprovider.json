@@ -32,7 +32,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -86,15 +86,27 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='brand-wrap']//span[.='+ Add New Entry']"
+        "value": "//div[@id='provider-wrap']/table/tbody/tr[1]/td[11]/input"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "6"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
