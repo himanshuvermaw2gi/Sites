@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -74,7 +74,7 @@
         "value": "img[alt=\"Etailer\"]"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -85,39 +85,47 @@
         "value": "Configuration"
       }
     },
-     {
+	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='provider-wrap']/table/tbody/tr[1]/td[11]/input"
+        "type": "css selector",
+        "value": "span.icon-search"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
-        "value": "label > input[type=\"text\"]"
+        "value": "input.search-box"
       },
-      "text": "6"
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
+      "text": "wafflehouse"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "value": "input.Button.btn-search"
       }
+    },
+	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Data providers - Account"
+    },
+	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "No data found"
     }
   ]
 }
