@@ -13,6 +13,21 @@
         "type": "id",
         "value": "loginid"
       },
+      "text": "qa_tester"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
       "text": "riyer"
     },
     {
@@ -93,16 +108,20 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[7]/input"
+        "value": "//div[@id='online-store']/table/thead/tr/td[8]/span[1]"
       }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
+        "type": "css selector",
+        "value": "input.search-box"
       },
-      "text": "USA1"
+      "text": "Amazon"
     },
 	{
       "type": "pause",
@@ -112,23 +131,19 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "value": "input.Button.btn-search"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[8]/input"
+        "type": "css selector",
+        "value": "td > img"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     }
   ]
 }
