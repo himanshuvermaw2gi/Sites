@@ -39,7 +39,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -89,7 +89,41 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration"
+        "value": "Provider Rank"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-edit"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "3"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "64"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-confirm"
       }
     },
 	{
@@ -97,35 +131,45 @@
       "waitTime": "5000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "label > input[type=\"checkbox\"]"
+        "value": "input.Button.btn-edit"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='associate-wrap']/div[1]/label[8]/input"
-      }
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "5"
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='associate-wrap']/div[1]/label[15]/input"
-      }
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "61"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "3"
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-save"
+        "value": "input.Button.btn-confirm"
       }
     }
   ]
