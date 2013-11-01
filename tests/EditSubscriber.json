@@ -38,7 +38,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "b"
+        "value": "div > b"
       }
     },
     {
