@@ -17,7 +17,7 @@
         "type": "id",
         "value": "addressline"
       },
-      "text": "JOHN GULLIBLE DOE CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY 421 E DRACHMAN"
+      "text": "MountainView Hospital-Las Vegas, NV"
     },
     {
       "type": "clickElement",
@@ -26,46 +26,27 @@
         "value": "input[type=\"submit\"]"
       }
     },
-    {
+{
         "type": "pause",
         "waitTime": "7000"
         },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//li[@id='item']/div/div[1]"
+        "type": "link text",
+        "value": "5469 Mountain Vista St Las Vegas, NV 89120"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='more_info_results']/li[2]/a"
-      }
-    },
-    {
-        "type": "pause",
-        "waitTime": "6000"
-        },
-        {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='startaddress']"
-      },
-      "text": "Al"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search"
-      }
-    },
-        {
+{
         "type": "pause",
         "waitTime": "5000"
-        }
+        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
+    }
   ]
 }
