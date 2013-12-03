@@ -7,6 +7,10 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-usecurrent.html"
     },
+     {
+        "type": "pause",
+        "waitTime": "4000"
+        },
     {
       "type": "setElementText",
       "locator": {
@@ -15,10 +19,7 @@
       },
       "text": "35004"
     },
-        {
-        "type": "pause",
-        "waitTime": "5000"
-        },
+       
     {
       "type": "clickElement",
       "locator": {
@@ -26,6 +27,10 @@
         "value": "input[type=\"submit\"]"
       }
     },
+     {
+        "type": "pause",
+        "waitTime": "5000"
+        },
     {
       "type": "setElementText",
       "locator": {
@@ -49,6 +54,10 @@
       "type": "verifyTextPresent",
       "text": "No locations were found using your search criteria [ 35004 US ]. Please try another input address to search for locations."
     },
+     {
+        "type": "pause",
+        "waitTime": "5000"
+        },
     {
       "type": "setElementText",
       "locator": {
