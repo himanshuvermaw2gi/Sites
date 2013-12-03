@@ -40,8 +40,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "div.org"
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/input[2]"
       }
     },
     {
