@@ -7,7 +7,7 @@
       "type": "get",
       "url": "http://hosted.where2stageit.com/ramtest/nogeoip.html"
     },
-	{
+	 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -17,7 +17,7 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "fl"
+      "text": "32801"
     },
     {
       "type": "setElementSelected",
@@ -44,10 +44,11 @@
         "value": "Disney World"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "9000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -66,6 +67,7 @@
         "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[1]"
       }
     },
+
     {
       "type": "pause",
       "waitTime": "14000"
@@ -76,22 +78,24 @@
         "type": "xpath",
         "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
       },
-      "text": "al"
+      "text": "32837"
     },
-    {
+{
       "type": "pause",
       "waitTime": "6000"
     },
-    {
+
+   {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
       }
     },
+
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     }
     
   ]
