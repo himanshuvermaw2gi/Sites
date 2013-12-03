@@ -1,0 +1,74 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/ramtest/index-usecurrent.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "35004"
+    },
+        {
+        "type": "pause",
+        "waitTime": "5000"
+        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "36901"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+        {
+        "type": "pause",
+        "waitTime": "20000"
+        },
+        {
+      "type": "verifyTextPresent",
+      "text": "No locations were found using your search criteria [ 35004 US ]. Please try another input address to search for locations."
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "32024"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+        {
+        "type": "pause",
+        "waitTime": "3000"
+        }
+    
+    
+  ]
+}
