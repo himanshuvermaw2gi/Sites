@@ -36,13 +36,13 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "14000"
+	"waitTime": "8000"
 	},
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Get Directions"
+        "type": "xpath",
+        "value": "//*[@id='item']/div/div[3]/a"
       }
     }
   ]
