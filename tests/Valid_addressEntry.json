@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='item']/div/div[3]/a"
+        "type": "css selector",
+        "value": "a.getdirections"
       }
     }
   ]
