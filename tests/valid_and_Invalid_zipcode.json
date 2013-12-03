@@ -5,11 +5,11 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://mobile.where2stageit.com/ramtest/index-usecurrent.html"
+      "url": "http://mobile.where2stageit.com/ramtest"
     },
-     {
+{
         "type": "pause",
-        "waitTime": "4000"
+        "waitTime": "5000"
         },
     {
       "type": "setElementText",
@@ -19,7 +19,7 @@
       },
       "text": "35004"
     },
-       
+        
     {
       "type": "clickElement",
       "locator": {
@@ -27,11 +27,12 @@
         "value": "input[type=\"submit\"]"
       }
     },
-     {
-        "type": "pause",
-        "waitTime": "5000"
-        },
-   {
+{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -53,11 +54,13 @@
     {
       "type": "verifyTextPresent",
       "text": "You entered an address which could not be geocoded [ 110078 US ]. Please try another input address to search for locations."
+    }
+{
+      "type": "pause",
+      "waitTime": "5000"
     },
-  {
-        "type": "pause",
-        "waitTime": "5000"
-        },
+
+
     {
       "type": "setElementText",
       "locator": {
