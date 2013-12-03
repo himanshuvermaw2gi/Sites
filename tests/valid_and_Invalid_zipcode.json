@@ -31,13 +31,13 @@
         "type": "pause",
         "waitTime": "5000"
         },
-    {
+   {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "addressline"
       },
-      "text": "36901"
+      "text": "110078"
     },
     {
       "type": "clickElement",
@@ -46,15 +46,15 @@
         "value": "input[type=\"submit\"]"
       }
     },
-        {
-        "type": "pause",
-        "waitTime": "20000"
-        },
-        {
-      "type": "verifyTextPresent",
-      "text": "No locations were found using your search criteria [ 35004 US ]. Please try another input address to search for locations."
+    {
+      "type": "pause",
+      "waitTime": "9000"
     },
-     {
+    {
+      "type": "verifyTextPresent",
+      "text": "You entered an address which could not be geocoded [ 110078 US ]. Please try another input address to search for locations."
+    },
+  {
         "type": "pause",
         "waitTime": "5000"
         },
