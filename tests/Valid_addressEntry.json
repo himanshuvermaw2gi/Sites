@@ -44,10 +44,7 @@
         "value": "//*[@id='locator_search']/input[2]"
       }
     },
-    {
-        "type": "pause",
-        "waitTime": "7000"
-        },
+    
 {
         "type": "pause",
         "waitTime": "20000"
@@ -55,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Get Directions"
+        "type": "xpath",
+        "value": "//*[@id='item']/div/div[3]/a"
       }
     }
   ]
