@@ -34,8 +34,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "div.actions > span"
+        "type": "xpath",
+        "value": "//*[@id='item']/div/div[3]/a"
       }
     },
     {
