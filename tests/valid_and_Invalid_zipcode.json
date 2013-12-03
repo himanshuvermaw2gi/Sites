@@ -54,7 +54,7 @@
     {
       "type": "verifyTextPresent",
       "text": "You entered an address which could not be geocoded [ 110078 US ]. Please try another input address to search for locations."
-    }
+    },
 {
       "type": "pause",
       "waitTime": "5000"
