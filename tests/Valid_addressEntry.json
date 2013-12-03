@@ -7,9 +7,10 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
+	
 	{
 	"type": "pause",
-	"waitTime": "3000"
+	"waitTime": "5000"
 	},
     {
       "type": "setElementText",
@@ -17,8 +18,9 @@
         "type": "id",
         "value": "addressline"
       },
-      "text": "florida"
+      "text": "JOHN GULLIBLE DOE CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY 421 E DRACHMAN"
     },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -28,44 +30,22 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "7000"
+	"waitTime": "8000"
 	},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//li[@id='item']/div/div[1]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='more_info_results']/li[2]/a"
-      }
-    },
-    {
-	"type": "pause",
-	"waitTime": "6000"
-	},
+	
 	{
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='startaddress']"
-      },
-      "text": "35004"
-    },
+        "value": "//li[@id='item']/div/div[2]/div[1]"
+      }
+    }
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "search"
+        "type": "link text",
+        "value": "Get Directions"
       }
-    },
-	{
-	"type": "pause",
-	"waitTime": "5000"
-	}
+    }
   ]
 }
