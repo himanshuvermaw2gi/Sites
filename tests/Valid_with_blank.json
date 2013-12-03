@@ -24,14 +24,29 @@
     },
 
         {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "florida"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+        {
         "type": "pause",
-        "waitTime": "4000"
+        "waitTime": "7000"
         },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='item']/div/div[3]/span"
+        "value": "//li[@id='item']/div/div[1]"
       }
     },
     {
@@ -41,11 +56,11 @@
         "value": "//*[@id='more_info_results']/li[2]/a"
       }
     },
-   
-{
+    {
         "type": "pause",
-        "waitTime": "7000"
+        "waitTime": "6000"
         },
+
     {
       "type": "clickElement",
       "locator": {
