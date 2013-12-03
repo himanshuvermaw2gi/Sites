@@ -7,11 +7,10 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
-	
-	{
-	"type": "pause",
-	"waitTime": "5000"
-	},
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "setElementText",
       "locator": {
@@ -34,23 +33,31 @@
         "value": "input[type=\"submit\"]"
       }
     },
-	{
-	"type": "pause",
-	"waitTime": "15000"
-	},
-	{
-	   "type": "clickElement",
-	      "locator": {
-		"type": "xpath",
-	        "value": "//*[@id='item']/div/div[3]/a"
-	}
-	},
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='item']/div/div[3]/a"
+        "type": "css selector",
+        "value": "div.org"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
