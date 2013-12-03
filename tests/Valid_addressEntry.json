@@ -38,6 +38,13 @@
 	"type": "pause",
 	"waitTime": "8000"
 	},
+	{
+	   "type": "clickElement",
+	      "locator": {
+		"type": "xpath",
+	        "value": "//*[@id='item']"
+	}
+	},
     {
       "type": "clickElement",
       "locator": {
