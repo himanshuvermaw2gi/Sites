@@ -35,7 +35,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='item']/div/div[3]/a"
+        "value": "//*[@id='item']"
       }
     },
     {
