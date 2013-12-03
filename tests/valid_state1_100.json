@@ -68,13 +68,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "14000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
+        "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
       },
       "text": "al"
     },
