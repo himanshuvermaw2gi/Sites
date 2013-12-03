@@ -52,7 +52,7 @@
       "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='startaddress']"
+        "value": "//form[@id='driving_directions']/div/div[1]/input"
       },
       "text": "Al"
     },
