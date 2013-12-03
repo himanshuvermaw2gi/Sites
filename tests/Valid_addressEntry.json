@@ -39,7 +39,7 @@
         "type": "xpath",
         "value": "//li[@id='item']/div/div[2]/div[1]"
       }
-    }
+    },
     {
       "type": "clickElement",
       "locator": {
