@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://mobile.where2stageit.com/ramtest"
+      "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
 {
         "type": "pause",
