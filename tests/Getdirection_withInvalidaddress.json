@@ -9,28 +9,8 @@
     },
 {
         "type": "pause",
-        "waitTime": "5000"
+        "waitTime": "3000"
         },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "addressline"
-      },
-      "text": "35004"
-    },
-        
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input[type=\"submit\"]"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "5000"
-    },
 
     {
       "type": "setElementText",
@@ -38,36 +18,7 @@
         "type": "id",
         "value": "addressline"
       },
-      "text": "110078"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input[type=\"submit\"]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "You entered an address which could not be geocoded [ 110078 US ]. Please try another input address to search for locations."
-    },
-{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
-
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "addressline"
-      },
-      "text": "32024"
+      "text": "33901"
     },
     {
       "type": "clickElement",
@@ -79,8 +30,47 @@
         {
         "type": "pause",
         "waitTime": "3000"
+        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.actions > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='startaddress']"
+      },
+      "text": "xyz00012345"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search"
+      }
+    },
+        {
+        "type": "pause",
+        "waitTime": "10000"
+        },
+    {
+      "type": "verifyTextPresent",
+      "text": "Unable to geocode the current input address. Please try again."
+    },
+        {
+        "type": "pause",
+        "waitTime": "3000"
         }
-    
-    
   ]
 }
