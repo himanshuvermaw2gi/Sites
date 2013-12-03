@@ -45,22 +45,30 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']//div[.='Hours']"
-      }
+      "type": "pause",
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']//div[.='Address']"
+        "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[2]"
       }
     },
     {
       "type": "pause",
-      "waitTime": "14000"
+      "waitTime": "9000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "9000"
     },
     {
       "type": "setElementText",
