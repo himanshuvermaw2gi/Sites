@@ -41,8 +41,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Get Directions"
+        "type": "xpath",
+        "value": "//*[@id='more_info_results']/li[2]/a"
       }
     },
     {
