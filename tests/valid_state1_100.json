@@ -79,10 +79,14 @@
       "text": "al"
     },
     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
+        "value": "//*[@id='OpenLayers.Feature_107_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
       }
     },
     {
