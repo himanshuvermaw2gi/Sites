@@ -54,7 +54,7 @@
         "type": "xpath",
         "value": "//*[@id='startaddress']"
       },
-      "text": "Al"
+      "text": "35004"
     },
     {
       "type": "clickElement",
