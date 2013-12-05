@@ -1,0 +1,95 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "33190"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+
+        {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "florida"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+        {
+        "type": "pause",
+        "waitTime": "7000"
+        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='item']/div/div[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='more_info_results']/li[2]/a"
+      }
+    },
+    {
+        "type": "pause",
+        "waitTime": "6000"
+        },
+     {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='startaddress']"
+      },
+       "text": "abc"
+    },
+
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search"
+      }
+    },
+{
+        "type": "pause",
+        "waitTime": "10000"
+        },
+
+{
+      "type": "verifyTextPresent",
+      "text": "Please enter an address."
+    },
+        
+        {
+        "type": "pause",
+        "waitTime": "4000"
+        }
+  ]
+}
