@@ -7,6 +7,11 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
+{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+
     {
       "type": "setElementText",
       "locator": {
