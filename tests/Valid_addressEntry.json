@@ -36,7 +36,7 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "8000"
+	"waitTime": "5000"
 	},
     {
       "type": "clickElement",
@@ -44,6 +44,10 @@
         "type": "link text",
         "value": "Get Directions"
       }
-    }
+    },
+    	{
+	"type": "pause",
+	"waitTime": "8000"
+	}
   ]
 }
