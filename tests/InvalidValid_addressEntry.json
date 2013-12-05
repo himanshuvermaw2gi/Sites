@@ -7,25 +7,18 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
-        
-        {
-        "type": "pause",
-        "waitTime": "5000"
-        },
+{
+	"type": "pause",
+	"waitTime": "4000"
+	}
+
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "addressline"
       },
-      "text": "5469 Mountain Vista St, Las Vegas, NV 89120"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "body"
-      }
+      "text": "rajendra nagar, New Delhi"
     },
     {
       "type": "clickElement",
@@ -34,20 +27,17 @@
         "value": "input[type=\"submit\"]"
       }
     },
-        {
+    {
         "type": "pause",
-        "waitTime": "5000"
+        "waitTime": "7000"
         },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Get Directions"
-      }
+      "type": "verifyTextPresent",
+      "text": "No locations were found using your search criteria [ rajendra nagar, New Delhi US ]. Please try another input address to search for locations."
     },
-            {
+    {
         "type": "pause",
-        "waitTime": "8000"
+        "waitTime": "5000"
         }
   ]
 }
