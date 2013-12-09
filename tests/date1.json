@@ -121,6 +121,25 @@
     {
       "type": "clickElement",
       "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoNext > span"
+      }
+    },{
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoNext > span"
+      }
+    },{
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoNext > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "xpath",
         "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[5]/td[5]/a/span"
       }
