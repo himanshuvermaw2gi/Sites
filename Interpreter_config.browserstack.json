@@ -22,7 +22,7 @@
         }
       ],
       "scripts": [
-        "date1.json"
+        "tests/*"
       ]
     }
   ]
