@@ -96,6 +96,20 @@
         "value": "a.datepickerGoPrev > span"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
 
     {
       "type": "clickElement",
