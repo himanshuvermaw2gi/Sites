@@ -1,0 +1,562 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='Launchpad']/a"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_chzn_o_0']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btn-select-account"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "date-range"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']//span[.='1']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[5]/td[5]/a/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.datepickerApply.GrayButton"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.icon-cog"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.s-tab > p > strong"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//tbody[@class='channel-products']/tr[5]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//tbody[@class='channel-products']/tr[4]/td[1]/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//tbody[@class='channel-products']/tr[5]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "css selector",
+        "value": "input.marginR-10"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ui-dialog-buttonset']//button[.='Ok']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-selector']//strong[.='social channel']"
+      }
+    },
+        
+    {
+    "type" : "pause",
+    "waitTime" : "4000"
+},
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[4]/td[1]/input"
+      }
+    },
+     {
+    "type" : "pause",
+    "waitTime" : "2000"
+},
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[5]/td[1]/input"
+      }
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[1]/td[2]"
+      },
+      "text": "Page View"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[2]/td[2]"
+      },
+      "text": "Visitors"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[3]/td[2]"
+      },
+      "text": "Driving Direction Requested"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[4]/td[2]"
+      },
+      "text": "Google+ Local Overall Score"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[5]/td[2]"
+      },
+      "text": "Locator Search Results"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[2]/table/tbody/tr[6]/td[2]"
+      },
+      "text": "Locator Searches"
+    },
+        
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save-btn"
+      }
+    },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ui-dialog-buttonset']//button[.='Ok']"
+      }
+    },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-selector']//strong[.='search channel']"
+      }
+    },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/table/tbody/tr[2]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/table/tbody/tr[4]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/table/tbody/tr[2]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/table/tbody/tr[4]/td[1]/input"
+      }
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[1]/td[2]"
+      },
+      "text": "Keyword Search Result"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[2]/td[2]"
+      },
+      "text": "Locator Searches"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[3]/td[2]"
+      },
+      "text": "Locator Search Results"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[4]/td[2]"
+      },
+      "text": "Keyword Search Result"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[5]/td[2]"
+      },
+      "text": "Visitors"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[6]/td[2]"
+      },
+      "text": "Driving Direction Requested"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[7]/td[2]"
+      },
+      "text": "Google+ Local Actions"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[3]/table/tbody/tr[8]/td[2]"
+      },
+      "text": "Page View"
+    },
+        
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/span/label/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='channel-product-wrapper']/div[3]/span/label/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ui-dialog-buttonset']//button[.='Ok']"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[1]/div[4]/p/strong"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[1]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[2]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[3]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[4]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[5]/td[1]/input"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[7]/td[1]/input"
+      }
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[1]/td[2]"
+      },
+      "text": "Locator Searches"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[3]/td[2]"
+      },
+      "text": "Driving Direction Requested"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[5]/td[2]"
+      },
+      "text": "Locator Search Results"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[6]/td[2]"
+      },
+      "text": "Page View"
+    },
+        {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[7]/td[2]"
+      },
+      "text": "Visitors"
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "save-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ui-dialog-buttonset']//button[.='Ok']"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "logout-button"
+      }
+    }
+    
+  ]
+}
