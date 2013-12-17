@@ -93,8 +93,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "span.pause.play_icon"
+        "type": "xpath",
+        "value": "//*[@id='row_-2146983922']/span[9]"
       }
     },
 		 {
