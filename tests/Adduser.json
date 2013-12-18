@@ -91,7 +91,7 @@
         "type": "id",
         "value": "username"
       },
-      "text": "w2gi001"
+      "text": "w2gi1"
     },
     {
       "type": "clickElement",
@@ -106,7 +106,7 @@
         "type": "id",
         "value": "firstname"
       },
-      "text": "w2gi"
+      "text": "w2gi001"
     },
     {
       "type": "setElementText",
@@ -114,7 +114,7 @@
         "type": "id",
         "value": "lastname"
       },
-      "text": "panalinks"
+      "text": "panalinks1"
     },
     {
       "type": "setElementText",
@@ -130,7 +130,7 @@
         "type": "id",
         "value": "loginname"
       },
-      "text": "SRT001"
+      "text": ""
     },
     {
       "type": "setElementText",
