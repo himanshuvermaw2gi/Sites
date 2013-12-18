@@ -77,6 +77,11 @@
         "value": "a.datepickerGoPrev > span"
       }
     },
+   {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
