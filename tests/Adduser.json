@@ -81,75 +81,93 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='group_results_list']/li[9]/ul/li[2]/img"
+        "type": "css selector",
+        "value": "strong.clickable"
       }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "name"
+        "value": "username"
       },
-      "text": "w2gi1234"
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='1072406346_select']"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "1072407326_select"
-      }
+      "text": "w2gi001"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "save_all_menu"
+        "value": "Add_person"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "1073903828_select"
-      }
+        "value": "firstname"
+      },
+      "text": "w2gi"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "lastname"
+      },
+      "text": "panalinks"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailaddress"
+      },
+      "text": "w2gi@panalinks.com"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "loginname"
+      },
+      "text": "SRT001"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "title"
+      },
+      "text": "test12"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "passwd"
+      },
+      "text": "Pana@95"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "save_all_report"
+        "value": "createrole"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "1014777573_select"
-      }
+        "value": "defaulttheme"
+      },
+      "text": "red"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "1014777573_insert"
+        "value": "Add_person"
       }
     },
                 {
@@ -160,10 +178,10 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "save_all_table"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-                {
+    {
       "type": "pause",
       "waitTime": "1000"
     }
