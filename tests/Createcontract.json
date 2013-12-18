@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -30,10 +35,11 @@
         "value": "submit"
       }
     },
-        {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -47,13 +53,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "fellowes"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "em"
       }
     },
     {
@@ -63,21 +69,23 @@
         "value": "change_account"
       }
     },
-        {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"AdminTools\"]"
+        "type": "link text",
+        "value": "Admin Tools"
       }
     },
-        {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -85,17 +93,18 @@
         "value": "Contract Builder"
       }
     },
-            {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "sowName"
       },
-      "text": "w2gipanalinks001"
+      "text": "SRT009"
     },
     {
       "type": "setElementText",
@@ -103,9 +112,14 @@
         "type": "id",
         "value": "description"
       },
-      "text": "test1"
+      "text": "test"
     },
-     {
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -113,10 +127,29 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//tr[@class='headrow']//div[.='â€º']"
+        "value": "//tr[@class='headrow']//div[.='»']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='headrow']//div[.='«']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@class='headrow']//div[.='›']"
       }
     },
     {
@@ -129,18 +162,46 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[8]/table/thead/tr[2]/td[4]/div"
+        "type": "id",
+        "value": "templatecount"
       }
     },
-    
-       {
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "autorenew"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "contractRenewalFreq"
+      },
+      "text": "3"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//tr[@id='renewalFrequencySection']/td[2]/select//option[1]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "contractRenewalOnDemand"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "templatecount"
       },
-      "text": "12"
+      "text": "5"
     },
     {
       "type": "setElementText",
@@ -148,21 +209,7 @@
         "type": "id",
         "value": "transactions"
       },
-      "text": "23"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "msaa"
-      }
-    },
-    {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "id",
-        "value": "msaa"
-      }
+      "text": "3"
     },
     {
       "type": "setElementText",
@@ -176,37 +223,21 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.=' Business Locator ']"
+        "value": "//ul[@id='availableProductList']//label[.='   Facebook Locator ']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "product_chk_1076046760"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='availableProductListDescription']/li[3]/label"
-      }
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.=' Dynamic Display Ads ']"
-      }
-    },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='availableProductList']/li[21]/label"
-      }
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.=' Product Locator ']"
+        "value": "//ul[@id='availableProductList']//label[.='   Product Locator ']"
       }
     },
     {
@@ -220,21 +251,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.=' Claiming Syndication ']"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "product_chk_1076046755"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']//label[.=' Local Sites ']"
+        "value": "//ul[@id='availableProductList']//label[.='   Local Sites ']"
       }
     },
     {
@@ -248,50 +265,71 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='availableProductListDescription']//label[.=' Facebook Locator ']"
+        "value": "//ul[@id='availableProductList']//label[.='   Facebook Sites ']"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "product_chk_1076046760_description"
+        "value": "product_chk_1076046761"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='availableProductListDescription']//label[.=' Mobile Locator ']"
+        "value": "//ul[@id='availableProductList']//label[.='   Mobile Marketing ']"
       }
-    },
-     {
-      "type": "pause",
-      "waitTime": "10000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "product_chk_1076046764_description"
+        "value": "product_chk_1076046765"
       }
     },
-   {
-      "type": "pause",
-      "waitTime": "5000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.Button"
+      }
     },
-     
-        
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "contractEnd"
+      }
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='generateStep']/ul/li[1]/button"
+        "value": "//div[9]/table/thead/tr[2]/td[4]/div"
       }
     },
-        {
-      "type": "pause",
-      "waitTime": "1000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.Button"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
     }
   ]
 }
