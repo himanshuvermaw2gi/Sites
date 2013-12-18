@@ -93,23 +93,29 @@
       },
       "text": "w2gi1234"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "1072407522_select"
+        "type": "xpath",
+        "value": "//*[@id='1072406346_select']"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "1072407326_select"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -124,10 +130,6 @@
         "type": "id",
         "value": "1073903828_select"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -151,10 +153,6 @@
       }
     },
                 {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
       "type": "pause",
       "waitTime": "4000"
     },
