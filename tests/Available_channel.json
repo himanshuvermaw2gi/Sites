@@ -89,12 +89,20 @@
         "value": "//div[@class='datepickerContainer']//span[.='1']"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[5]/td[5]/a/span"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
