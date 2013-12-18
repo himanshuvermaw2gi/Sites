@@ -109,7 +109,7 @@
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "SRT004"
+      "text": "SRT005"
     },
     {
       "type": "clickElement",
@@ -149,7 +149,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "3"
+      "text": "4"
     },
                 {
       "type": "pause",
@@ -208,7 +208,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "SRT006"
+      "text": "SRT007"
     },
     {
       "type": "setElementSelected",
@@ -268,6 +268,10 @@
         "value": "saveDynMessage"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
             "type": "acceptAlert"
     },
@@ -297,6 +301,10 @@
         "type": "xpath",
         "value": "//*[@id='editCampSubmit']"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "5000"
     },
          {
          "type": "acceptAlert"
