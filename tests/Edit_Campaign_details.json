@@ -298,12 +298,11 @@
       "waitTime": "2000"
     },
 {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//li[@id='messageCell']/select//option[1]"
-      },
-      "text": "SRT001"
+      }
     },
       {
       "type": "pause",
