@@ -312,6 +312,10 @@
         "value": "add_rule_input_b"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "9000"
+    },
        {
          "type": "acceptAlert"
          },
