@@ -286,7 +286,25 @@
       "type": "pause",
       "waitTime": "2000"
     },
-   
+   {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='rule_message_input']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@id='messageCell']/select//option[4]"
+      }
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -299,7 +317,7 @@
          },
          {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     },
         
          {
@@ -311,7 +329,7 @@
     },
      {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     },
          {
          "type": "acceptAlert"
