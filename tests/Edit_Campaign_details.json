@@ -159,7 +159,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "4"
+      "text": "5"
     },
                 {
       "type": "pause",
@@ -218,7 +218,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "SRT007"
+      "text": "SRT009"
     },
     {
       "type": "setElementSelected",
