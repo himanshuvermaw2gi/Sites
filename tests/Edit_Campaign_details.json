@@ -319,13 +319,7 @@
       "type": "pause",
       "waitTime": "9000"
     },
-       {
-         "type": "acceptAlert"
-         },
-         {
-      "type": "pause",
-      "waitTime": "7000"
-    },
+       
         
          {
       "type": "clickElement",
