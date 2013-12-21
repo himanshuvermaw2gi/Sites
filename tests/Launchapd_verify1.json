@@ -1,0 +1,246 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "riyer"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "ram@w2gi"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+     {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div > b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "dennys"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#accounts_chzn_o_81 > em"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "change_account"
+      }
+    },
+      {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Launchpad"
+      }
+    },
+     {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "date-range"
+      }
+    },
+     {
+     "type": "pause",
+     "waitTime": "5000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+      {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "1"
+      }
+    },
+      {
+     "type": "pause",
+     "waitTime": "5000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+      }
+    },
+      {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[3]/table/tbody[2]/tr[5]/td[7]/a/span"
+      }
+    },
+       {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.datepickerApply.GrayButton"
+      }
+    },
+       {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#ldqs-claimedToggle > li > label"
+      }
+    },
+  {
+     "type": "pause",
+     "waitTime": "8000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "claimedRadio"
+      }
+    },
+ {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='ldqs-claimedToggle']//label[.='Claimed locations']"
+      }
+    },
+ {
+     "type": "pause",
+     "waitTime": "3000"
+     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "claimedLocRadio"
+      }
+    },
+ {
+     "type": "pause",
+     "waitTime": "7000"
+     },
+
+    {
+      "type": "verifyTextPresent",
+      "text": "Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created"
+    },
+ {
+     "type": "pause",
+     "waitTime": "7000"
+     },
+
+    {
+      "type": "verifyTextPresent",
+      "text": "Total 0 0 0% â†‘ 0 0 0% â†‘ 0 0 0% â†‘"
+    },
+ {
+     "type": "pause",
+     "waitTime": "7000"
+     },
+
+    {
+      "type": "verifyTextPresent",
+      "text": "web 0 0% â†‘ 0 0% â†‘ 0% 0% â†‘ $0 0% â†‘ search 0"
+    },
+ {
+     "type": "pause",
+     "waitTime": "3000"
+     }
+
+  ]
+}
