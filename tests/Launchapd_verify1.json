@@ -215,14 +215,7 @@
      "waitTime": "7000"
      },
 
-    {
-      "type": "verifyTextPresent",
-      "text": "Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created with Highcharts 3.0.5 0% Created"
-    },
- {
-     "type": "pause",
-     "waitTime": "7000"
-     },
+   
 
     {
       "type": "verifyTextPresent",
