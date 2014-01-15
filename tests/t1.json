@@ -66,7 +66,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_txtApptName"
       },
-      "text": "test1210"
+      "text": "test121"
     },
 {
     "type": "pause",
@@ -319,16 +319,9 @@
     },
 {
     "type": "pause",
-    "waitTime": "7000"
-    },
-    {
-      "type": "dismissAlert",
-      
-      },
-      {
-    "type": "pause",
-    "waitTime": "7000"
+    "waitTime": "3000"
     }
     
+    }
   ]
 }
