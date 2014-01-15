@@ -5,235 +5,328 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://ignite.where2stageit.com/login.html"
+      "url": "http://www.schoolcues.com/Default.aspx"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "loginid"
-      }
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "loginid"
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
       },
-      "text": "riyer"
+      "text": "manas@panalinks.com"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "password"
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
       },
-      "text": "ram@w2gi"
+      "text": "manas123"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "submit"
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
-     {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "div > b"
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_7"
       }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LinkButton2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "input[type=\"text\"]"
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtApptName"
       },
-      "text": "dennys"
+      "text": "test121"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_81 > em"
-      }
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtLocation"
+      },
+      "text": "florida"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtApptDes"
+      },
+      "text": "test"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "change_account"
+        "value": "ContentPlaceHolder1_btnContinueStep1"
       }
     },
-      {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Launchpad"
-      }
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
-     {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "date-range"
-      }
+        "value": "ContentPlaceHolder1_txtDiscreteDate"
+      },
+      "text": "01/18/2014"
     },
-     {
-     "type": "pause",
-     "waitTime": "5000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
-      }
-    },
-      {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
-      }
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "1"
-      }
-    },
-      {
-     "type": "pause",
-     "waitTime": "5000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
-      }
-    },
-      {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
-    {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[3]/table/tbody[2]/tr[5]/td[7]/a/span"
+        "value": "//div[@id='ContentPlaceHolder1_TDiscreteStartAt_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[10]"
       }
     },
-       {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.datepickerApply.GrayButton"
-      }
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
-       {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#ldqs-claimedToggle > li > label"
-      }
-    },
-  {
-     "type": "pause",
-     "waitTime": "8000"
-     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "name",
-        "value": "claimedRadio"
-      }
-    },
- {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
-    {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='ldqs-claimedToggle']//label[.='Claimed locations']"
+        "value": "//div[@id='ContentPlaceHolder1_TDiscreteUntil_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[11]"
       }
     },
- {
-     "type": "pause",
-     "waitTime": "3000"
-     },
-
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "claimedLocRadio"
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
       }
     },
- {
-     "type": "pause",
-     "waitTime": "7000"
-     },
-
-   
-
     {
-      "type": "verifyTextPresent",
-      "text": "Total 0 0 0% â†‘ 0 0 0% â†‘ 0 0 0% â†‘"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgResponseRequiredBy"
+      }
     },
- {
-     "type": "pause",
-     "waitTime": "7000"
-     },
-
     {
-      "type": "verifyTextPresent",
-      "text": "web 0 0% â†‘ 0 0% â†‘ 0% 0% â†‘ $0 0% â†‘ search 0"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceResponseRequiredBy_day_4_4"
+      }
     },
- {
-     "type": "pause",
-     "waitTime": "3000"
-     }
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "\\undefined"
+    },
 
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnDiscreteAdd"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDiscreteDate"
+      },
+      "text": "01/19/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep3"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtMessageSendOn"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbPRDayBefore"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "4000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbNRDayBefore"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSave"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnCancel"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": ""
+      }
+    }
   ]
 }
