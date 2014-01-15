@@ -125,12 +125,12 @@
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_gvExpireAppointment_lnkDelete_0"
+      }
       },
 {
     "type": "pause",
     "waitTime": "3000"
     }
 
-    
   ]
 }
