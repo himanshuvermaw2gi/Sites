@@ -11,6 +11,7 @@
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
@@ -38,6 +39,7 @@
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -49,28 +51,31 @@
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_divArchived"
+        "value": "ContentPlaceHolder1_divExpired"
       }
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvArchiveAppointment_LnkVAppoints_0"
+        "value": "ContentPlaceHolder1_gvExpireAppointment_LnkVAppoints_0"
       }
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -82,27 +87,50 @@
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_divArchived"
+        "value": "ContentPlaceHolder1_divExpired"
       }
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvArchiveAppointment_lnkDelete_0"
+        "value": "ContentPlaceHolder1_gvExpireAppointment_lnkArchive_0"
       }
     },
 {
     "type": "pause",
+    "waitTime": "7000"
+    },
+
+    {
+      "type": "dismissAlert"
+    },
+{
+    "type": "pause",
+    "waitTime": "6000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_gvExpireAppointment_lnkDelete_0"
+      },
+{
+    "type": "pause",
     "waitTime": "3000"
+    }
+
     }
   ]
 }
