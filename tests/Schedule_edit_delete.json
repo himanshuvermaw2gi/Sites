@@ -61,7 +61,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "10000"
+    "waitTime": "3000"
     },
 
     {
@@ -81,30 +81,6 @@
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_gvAppointment_lnkBulkSchedule_1"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_rblIndividualContact_0"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_lnkSchMeeting"
       }
     },
 {
@@ -145,10 +121,29 @@
       "text": "PTC101"
     },
 {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtLocation"
+      },
+      "text": "florida"
+    },
+{
     "type": "pause",
     "waitTime": "3000"
     },
-
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtApptDes"
+      },
+      "text": "test"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -160,45 +155,29 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_txtDiscreteDate"
       },
-      "text": "01/30/2014"
+      "text": "01/18/2014"
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
-
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
-      },
-      "text": "01/29/2014"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_TDiscreteStartAt_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[9]"
+        "value": "//div[@id='ContentPlaceHolder1_TDiscreteStartAt_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[10]"
       }
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
-
     {
       "type": "setElementSelected",
       "locator": {
@@ -210,19 +189,40 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnContinueStep2"
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgResponseRequiredBy"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceResponseRequiredBy_day_4_4"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "\\undefined"
+    },
+
 {
     "type": "pause",
     "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -234,20 +234,6 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDiscreteDate"
-      },
-      "text": "01/30/2014"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
@@ -259,7 +245,52 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDiscreteDate"
+      },
+      "text": "01/19/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
@@ -271,7 +302,6 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -283,7 +313,18 @@
     "type": "pause",
     "waitTime": "3000"
     },
-
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtMessageSendOn"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
@@ -293,9 +334,19 @@
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "4000"
     },
-
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbNRDayBefore"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "7000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -303,6 +354,7 @@
         "value": "ContentPlaceHolder1_btnSave"
       }
     },
+
 {
     "type": "pause",
     "waitTime": "3000"
