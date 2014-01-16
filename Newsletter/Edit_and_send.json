@@ -7,10 +7,11 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
@@ -35,68 +36,45 @@
       }
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_7"
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_6"
       }
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvAppointment_lnkEdit_0"
+        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_LinkButton1_0"
       }
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
-      "type": "clickElement",
+      "type": "sendKeysToElement",
       "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinueStep1"
-      }
+        "type": "xpath",
+        "value": "//html/body"
+      },
+      "text": " this is a test mail"
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinueStep2"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinueStep3"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
@@ -107,48 +85,214 @@
       }
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImageBtnStartDate"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnCancel"
+        "value": "ContentPlaceHolder1_CalendarExtender1_day_3_4"
       }
     },
 {
-      "type": "pause",
-      "waitTime": "7000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
-      "type": "acceptAlert"
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+      },
+      "text": "\\undefined"
     },
 {
-      "type": "pause",
-      "waitTime": "4000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvAppointment_lnkDelete_0"
+        "value": "ContentPlaceHolder1_btnTestSend"
       }
     },
 {
-      "type": "pause",
-      "waitTime": "7000"
+    "type": "pause",
+    "waitTime": "3000"
     },
 
     {
-      "type": "acceptAlert"
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtSendNowEmailAddresses"
+      },
+      "text": "kapil@panalinks.com"
     },
 {
-      "type": "pause",
-      "waitTime": "3000"
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSendNow"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnActivate"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divSent"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVQueueNewsLetter_LinkButton1_0"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgBtnBack"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_0']"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "10000"
+    },
+
+    {
+     "type": "dismissAlert"
+    },
+
+{
+    "type": "pause",
+    "waitTime": "5000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_LBCancel_0']"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "9000"
+    },
+    {
+    "type": "dismissAlert"
+    },
+     
+{
+    "type": "pause",
+    "waitTime": "9000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divSent"
+      }
+    },
+
+{
+    "type": "pause",
+    "waitTime": "3000"
     }
 
   ]
