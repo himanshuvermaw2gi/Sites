@@ -91,7 +91,14 @@
         "value": "ContentPlaceHolder1_GVCurrentTextCues_lnkDelete_0"
       }
     },
-{
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "dismissAlert"
+    },
+     {
       "type": "pause",
       "waitTime": "3000"
     },
