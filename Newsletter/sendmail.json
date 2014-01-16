@@ -1,0 +1,154 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.schoolcues.com/Default.aspx"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_3"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divContactListTab"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_gvContactList_lnkSelect_15"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[title=\"Send Email\"]"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtSubject"
+      },
+      "text": "test mail"
+    },
+{
+    "type": "pause",
+    "waitTime": "20000"
+    },
+
+ {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "tinymce"
+      },
+      "text": "This is a test mail"
+    },
+{
+    "type": "pause",
+    "waitTime": "9000"
+    },
+
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//[@id='ContentPlaceHolder1_btnSend']"
+      }
+     },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//[@id='ContentPlaceHolder1_ImgbtnBusinessHome']"
+      }
+     },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//[@id='HeaderUC1_LoginView2_LoginStatus1']"
+      }
+     },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    }
+
+  ]
+}
