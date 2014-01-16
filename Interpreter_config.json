@@ -19,7 +19,7 @@
         }
       ],
       "scripts": [
-        "Conference*"
+        "Conference/*"
       ]
     }
   ]
