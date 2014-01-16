@@ -19,7 +19,7 @@
         }
       ],
       "scripts": [
-        "RSVP/*"
+        "Conference*"
       ]
     }
   ]
