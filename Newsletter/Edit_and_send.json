@@ -7,11 +7,10 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-{
-    "type": "pause",
-    "waitTime": "3000"
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
-
     {
       "type": "setElementText",
       "locator": {
@@ -36,8 +35,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -48,8 +47,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -60,21 +59,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//html/body"
-      },
-      "text": " this is a test mail"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -85,45 +71,33 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImageBtnStartDate"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_CalendarExtender1_day_3_4"
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
-      "type": "sendKeysToElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_txtScheduleStartDate"
       },
-      "text": "\\undefined"
+      "text": "05/15/2014"
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -134,8 +108,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -147,8 +121,8 @@
       "text": "kapil@panalinks.com"
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -159,8 +133,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     },
 
     {
@@ -171,128 +145,8 @@
       }
     },
 {
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divQueue"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divSent"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divQueue"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_GVQueueNewsLetter_LinkButton1_0"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImgBtnBack"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divQueue"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "10000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_0']"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "10000"
-    },
-
-    {
-     "type": "dismissAlert"
-    },
-
-{
-    "type": "pause",
-    "waitTime": "5000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_LBCancel_0']"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "9000"
-    },
-    {
-    "type": "dismissAlert"
-    },
-     
-{
-    "type": "pause",
-    "waitTime": "9000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divSent"
-      }
-    },
-
-{
-    "type": "pause",
-    "waitTime": "3000"
+      "type": "pause",
+      "waitTime": "3000"
     }
 
   ]
