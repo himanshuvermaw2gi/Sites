@@ -7,9 +7,9 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -34,104 +34,75 @@
         "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_9"
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_7"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvActiveEvents_lnkEdit_0"
+        "value": "ContentPlaceHolder1_divArchived"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnContinue1"
+        "value": "ContentPlaceHolder1_gvArchiveAppointment_LnkVAppoints_0"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnContinue2"
+        "value": "ContentPlaceHolder1_ImgBtnBack"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnContinue3"
+        "value": "ContentPlaceHolder1_divArchived"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_BtnContinuePreAssigned"
+        "value": "ContentPlaceHolder1_gvArchiveAppointment_lnkDelete_0"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinue4"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnCancel1"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "acceptAlert"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+{
+    "type": "pause",
+    "waitTime": "3000"
     }
   ]
 }
