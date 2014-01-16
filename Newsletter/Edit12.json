@@ -203,18 +203,6 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "td.jquerybubblepopup-bottom-middle"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
       }
