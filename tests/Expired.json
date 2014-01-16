@@ -20,6 +20,7 @@
       },
       "text": "manas@panalinks.com"
     },
+
     {
       "type": "setElementText",
       "locator": {
@@ -56,7 +57,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_divTemplate"
+        "value": "ContentPlaceHolder1_divExpired"
       }
     },
  {
@@ -68,8 +69,16 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_gvTemplateList_lnkSelect_0"
+        "value": "ContentPlaceHolder1_gvExpiredForm_lnkArchive_0"
       }
+    },
+ {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+
+    {
+      "type": "acceptAlert"
     },
  {
       "type": "pause",
@@ -80,55 +89,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dvSignUpTemplate_btnSaveTemplate"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_dvSignUpTemplate_btnSaveTemplate"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImgBtnMain"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_divTemplate"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_gvTemplateList_lnkDelete_0"
+        "value": "ContentPlaceHolder1_gvExpiredForm_lnkDelete_0"
       }
     },
  {
@@ -148,7 +109,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_lnkSeeArchive"
+        "value": "ContentPlaceHolder1_gvExpiredForm_lnkSelect_0"
       }
     },
  {
