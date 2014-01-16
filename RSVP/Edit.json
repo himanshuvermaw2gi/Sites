@@ -1,0 +1,257 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.schoolcues.com/Default.aspx"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_9"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_gvActiveEvents_lnkEdit_0"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgEventDate"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceEventDate_day_4_4"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventDate"
+      },
+      "text": "\\undefined"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgResponse"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_CalendarExtender1_day_4_3"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "\\undefined"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinue1"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinue2"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinue3"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_BtnContinuePreAssigned"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImageBtnSendMessage"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceSendMessage_day_4_3"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtMessageSendOn"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinue4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnCancel1"
+      }
+    },
+    {
+      "type": "acceptAlert"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_gvActiveEvents_lnkDelete_0"
+      }
+    },
+    {
+      "type": "dismissAlert"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "HeaderUC1_LoginView2_LoginStatus1"
+      }
+    }
+  ]
+}
