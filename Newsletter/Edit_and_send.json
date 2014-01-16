@@ -118,14 +118,7 @@
       "waitTime": "4000"
     },
 
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtScheduleStartDate"
-      },
-      "text": "\\undefined"
-    },
+   
 {
       "type": "pause",
       "waitTime": "4000"
