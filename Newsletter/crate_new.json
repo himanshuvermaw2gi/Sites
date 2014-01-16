@@ -1,0 +1,360 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.schoolcues.com/Default.aspx"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_6"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnAddNew"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
+      },
+      "text": "\\undefined"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
+      },
+      "text": "test 003221"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_pnlDDiNTemplate']/select//option[2]"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//html/body"
+      },
+      "text": "awsdeasdewqweDWEGFHFH"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSave"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtSenderName"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImageBtnStartDate"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_CalendarExtender1_day_3_4"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+      },
+      "text": "\\undefined"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnTestSend"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtSendNowEmailAddresses"
+      },
+      "text": "kapil@panalinks.com"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSendNow"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnActivate"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divSent"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVQueueNewsLetter_LinkButton1_0"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgBtnBack"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_0']"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "10000"
+    },
+
+    {
+     "type": "dismissAlert"
+    },
+
+{
+    "type": "pause",
+    "waitTime": "5000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_LBCancel_0']"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "9000"
+    },
+    {
+    "type": "dismissAlert"
+    },
+     
+{
+    "type": "pause",
+    "waitTime": "9000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divSent"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    }
+
+  ]
+}
