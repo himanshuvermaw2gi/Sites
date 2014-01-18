@@ -76,84 +76,27 @@
     },
         {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Contract Builder"
+        "value": "Invoice Approval"
       }
     },
-        {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    
-     {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='sowName']"
-      },
-      "text": "fellowes1"
-
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    
-
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p[3]/select//option[16]"
-      }
-    },
-        {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    
-       
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='availableProductListDescription']/li[3]/label"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='availableProductList']/li[21]/label"
-      }
-    },
-    
     {
       "type": "pause",
       "waitTime": "7000"
     },
-    
-   
-   
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='generateStep']/ul/li[2]/button"
+        "type": "id",
+        "value": "action_view_in_invoiceinformation_0"
       }
     },
-    {
+        {
       "type": "pause",
       "waitTime": "5000"
     },
