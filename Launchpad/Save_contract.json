@@ -8,10 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -34,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+        {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -56,19 +52,115 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_85 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_85"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "change_account"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"AdminTools\"]"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Contract Builder"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='savedSOWs']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+     {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='savedSOWs']"
+      },
+      "text": "fellowes"
+
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p[3]/select//option[16]"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    
+       
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='availableProductListDescription']/li[3]/label"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='availableProductList']/li[21]/label"
+      }
+    },
+    
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    
+   
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='generateStep']/ul/li[2]/button"
       }
     },
     {
@@ -78,112 +170,13 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Reputation\"]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Job Scheduler"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-
-      {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='sched_table']/tbody/tr[1]/td[1]"
-      }
-    },
-
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDBFilterNo"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDefaultRadius"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#sched_table > tbody > tr > td"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDefaultRadius"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "delete_sched"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDBFilterNo"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDefaultRadius"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
     },
-    {
+        {
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "logout-button"
-      }
+      "waitTime": "1000"
     }
   ]
 }
