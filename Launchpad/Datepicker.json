@@ -1,0 +1,144 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "qa_tester"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Where2getit!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_chzn_o_0']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btn-select-account"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "date-range"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "1"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[2]/a"
+      }
+    },
+    
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[3]/table/tbody[2]/tr[5]/td[7]/a/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.datepickerApply.GrayButton"
+      }
+    },
+   {
+      "type": "pause",
+      "waitTime": "2000"
+    }
+  ]
+}
