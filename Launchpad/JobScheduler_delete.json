@@ -95,11 +95,11 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     },
 
       {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='sched_table']/tbody/tr[1]/td[1]"
