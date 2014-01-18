@@ -78,6 +78,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
@@ -107,6 +111,10 @@
         "value": "a.datepickerGoPrev > span"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
    
     {
       "type": "clickElement",
@@ -116,6 +124,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -123,11 +135,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[3]/table/tbody[2]/tr[5]/td[7]/a/span"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
