@@ -89,24 +89,14 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='savedSOWs']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
      {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='savedSOWs']"
+        "value": "//*[@id='sowName']"
       },
-      "text": "fellowes"
+      "text": "fellowes1"
 
     },
      {
