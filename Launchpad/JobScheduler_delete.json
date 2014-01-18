@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+        {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -59,22 +59,12 @@
       "type": "pause",
       "waitTime": "3000"
     },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "date-range"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
+        "value": "img[alt=\"Reputation\"]"
       }
     },
     {
@@ -85,21 +75,81 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "1"
+        "value": "Job Scheduler"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDBFilterNo"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
       }
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[2]/a"
+        "value": "//table[@id='sched_table']/tbody/tr[4]/td[1]"
       }
     },
-    
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "delete_sched"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDBFilterNo"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
     {
       "type": "pause",
       "waitTime": "5000"
@@ -108,19 +158,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-   
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+        "value": "img[alt=\"Launchpad\"]"
       }
     },
     {
@@ -130,35 +168,13 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+        "type": "id",
+        "value": "logout-button"
       }
     },
     {
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[4]/a/span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.datepickerApply.GrayButton"
-      }
-    },
-   {
-      "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "7000"
     }
   ]
 }
