@@ -8,12 +8,16 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "loginid"
       },
-      "text": "qa_tester"
+      "text": "riyer"
     },
     {
       "type": "setElementText",
@@ -21,7 +25,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "Where2getit!"
+      "text": "ram@w2gi"
     },
     {
       "type": "clickElement",
@@ -30,41 +34,52 @@
         "value": "submit"
       }
     },
-        {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn']/a/div/b"
+        "type": "css selector",
+        "value": "div > b"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn_o_0']"
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "dennys"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#accounts_chzn_o_85 > em"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "btn-select-account"
+        "value": "change_account"
       }
     },
     {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Reputation\"]"
+        "type": "link text",
+        "value": "MonitorReputation"
       }
     },
     {
@@ -77,6 +92,10 @@
         "type": "link text",
         "value": "Job Scheduler"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -93,19 +112,15 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//table[@id='sched_table']/tbody/tr[4]/td[1]"
+        "type": "css selector",
+        "value": "#sched_table > tbody > tr > td"
       }
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -122,10 +137,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -141,24 +152,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Launchpad\"]"
       }
     },
     {
@@ -171,10 +171,6 @@
         "type": "id",
         "value": "logout-button"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
     }
   ]
 }
