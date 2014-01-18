@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -30,9 +35,9 @@
         "value": "submit"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -63,9 +68,9 @@
         "value": "change_account"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,40 +79,51 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-        {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Invoice Approval"
-      }
-    },
     {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_view_in_invoiceinformation_0"
+        "value": "NotActiveTab"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='curr_tables_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#curr_tables_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+      },
+      "text": "campaign"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "em"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "change_table"
       }
     },
-        {
+	{
       "type": "pause",
       "waitTime": "1000"
     }
