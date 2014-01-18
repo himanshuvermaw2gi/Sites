@@ -79,7 +79,7 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "MonitorReputation"
+        "value": "Reputation"
       }
     },
     {
