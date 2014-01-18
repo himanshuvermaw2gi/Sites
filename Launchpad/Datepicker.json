@@ -142,7 +142,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[3]/table/tbody[2]/tr[5]/td[7]/a/span"
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[4]/a/span"
       }
     },
     {
