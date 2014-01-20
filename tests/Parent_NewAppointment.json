@@ -199,17 +199,7 @@
     "waitTime": "7000"
     },
     
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinueStep2"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "5000"
-    },
+    
     {
       "type": "setElementText",
       "locator": {
