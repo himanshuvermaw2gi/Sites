@@ -198,18 +198,7 @@
     "type": "pause",
     "waitTime": "7000"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDiscreteDate"
-      },
-      "text": "01/29/2014"
-    },
-{
-    "type": "pause",
-    "waitTime": "7000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -219,7 +208,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "5000"
     },
     {
       "type": "setElementText",
