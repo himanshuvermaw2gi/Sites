@@ -126,7 +126,7 @@
         "value": "//div[@id='ContentPlaceHolder1_TDiscreteStartAt_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[10]"
       }
     },
-{
+   {
     "type": "pause",
     "waitTime": "3000"
     },
@@ -148,12 +148,20 @@
         "value": "ContentPlaceHolder1_txtResponseRequiredBy"
       }
     },
+     {
+    "type": "pause",
+    "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_imgResponseRequiredBy"
       }
+    },
+     {
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
