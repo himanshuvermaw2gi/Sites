@@ -66,7 +66,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_txtApptName"
       },
-      "text": "test1210"
+      "text": "test12101"
     },
 {
     "type": "pause",
@@ -113,7 +113,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_txtDiscreteDate"
       },
-      "text": "01/30/2014"
+      "text": "02/02/2014"
     },
 {
     "type": "pause",
@@ -188,7 +188,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "7000"
     },
     {
       "type": "setElementText",
@@ -200,7 +200,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "7000"
     },
     {
       "type": "clickElement",
