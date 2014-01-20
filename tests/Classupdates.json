@@ -7,7 +7,7 @@
       "type": "get",
       "url": "http://www.schoolcues.com/"
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -49,36 +49,60 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_divQueue"
+        "value": "ContentPlaceHolder1_divSent"
       }
     },
 {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_2']"
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVSentNewsLetter_lnkCreateCopy_0"
       }
     },
-    {
+{
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "3000"
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVSentNewsLetter_lnkArchive_0"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+
     {
       "type": "dismissAlert"
     },
-       {
+{
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "5000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVSentNewsLetter_LBShow_0"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -86,6 +110,11 @@
         "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
       }
     },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -97,36 +126,25 @@
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_divQueue"
+        "value": "ContentPlaceHolder1_divSent"
       }
     },
 {
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "3000"
     },
-    
+
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_LBCancel_0']"
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVSentNewsLetter_lnkPrint_0"
       }
-    },
-  {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "dismissAlert"
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
     }
-
   ]
 }
