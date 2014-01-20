@@ -166,12 +166,16 @@
         "value": "ContentPlaceHolder1_btnSave"
       }
     },
-{
+   {
     "type": "pause",
     "waitTime": "7000"
     },
     {
       "type": "dismissAlert"
+    },
+    {
+    "type": "pause",
+    "waitTime": "7000"
     },
     {
       "type": "clickElement",
