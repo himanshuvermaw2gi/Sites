@@ -68,7 +68,14 @@
         "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_2']"
       }
     },
-{
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "dismissAlert"
+    },
+       {
       "type": "pause",
       "waitTime": "6000"
     },
