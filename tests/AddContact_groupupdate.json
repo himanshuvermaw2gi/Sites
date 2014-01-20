@@ -153,7 +153,7 @@
     },
  {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "10000"
     },
 
     {
