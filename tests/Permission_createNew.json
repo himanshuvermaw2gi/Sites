@@ -7,7 +7,7 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-   {
+{
     "type": "pause",
     "waitTime": "3000"
     },
@@ -36,18 +36,18 @@
     },
 {
     "type": "pause",
-    "waitTime": "9000"
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_4"
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_8"
       }
     },
 {
     "type": "pause",
-    "waitTime": "7000"
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -61,24 +61,11 @@
     "waitTime": "3000"
     },
     {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
-      },
-      "text": "test0101"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDueDate"
-      },
-      "text": "01/24/2014"
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_pnlStep1']/table/tbody/tr[1]/td/div/table/tbody/tr/td[1]/table/tbody/tr[1]/td/select//option[2]"
+      }
     },
 {
     "type": "pause",
@@ -88,60 +75,41 @@
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+        "value": "ContentPlaceHolder1_txtStartDate"
       },
-      "text": "02/12/2014"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_cbCategory_0"
-      }
+      "text": "01/12/2014"
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_cbCategory_1"
-      }
+        "value": "ContentPlaceHolder1_txtRRby"
+      },
+      "text": "01/18/2014"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "Title"
+      },
+      "text": "test01212"
     },
 {
     "type": "pause",
     "waitTime": "3000"
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_cbCategory_2"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_cbCategory_3"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_6"
-      }
+        "value": "Description"
+      },
+      "text": "test"
     },
 {
     "type": "pause",
@@ -150,10 +118,66 @@
     {
       "type": "sendKeysToElement",
       "locator": {
-        "type": "xpath",
-        "value": "//html/body"
+        "type": "id",
+        "value": "ActivityDate"
       },
-      "text": "eagwee"
+      "text": "\\9"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "23"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "SpecialInstructions"
+      },
+      "text": "test"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep1"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
     },
 {
     "type": "pause",
@@ -166,23 +190,12 @@
         "value": "ContentPlaceHolder1_btnSave"
       }
     },
-   {
+{
     "type": "pause",
     "waitTime": "7000"
     },
     {
       "type": "dismissAlert"
-    },
-    {
-    "type": "pause",
-    "waitTime": "7000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_lnkbtnActivate_0"
-      }
     },
 {
     "type": "pause",
