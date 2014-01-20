@@ -65,12 +65,12 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='ContentPlaceHolder1_GVQueueNewsLetter']//a[.='Process Queue Now']"
+        "value": "//*[@id='ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_2']"
       }
     },
 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
