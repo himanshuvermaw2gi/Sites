@@ -7,9 +7,9 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-{
+   {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "5000"
     },
 
     {
@@ -28,6 +28,11 @@
       },
       "text": "manas123"
     },
+     {
+    "type": "pause",
+    "waitTime": "5000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -37,7 +42,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "7000"
     },
 
     {
@@ -49,7 +54,7 @@
     },
 {
     "type": "pause",
-    "waitTime": "5000"
+    "waitTime": "7000"
     },
 
     {
@@ -71,18 +76,7 @@
         "value": "ContentPlaceHolder1_ImgBtnPrint"
       }
     },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
 
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImgBtnPrint"
-      }
-    },
 {
     "type": "pause",
     "waitTime": "3000"
