@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-  {
+        {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -63,90 +63,115 @@
         "value": "change_account"
       }
     },
-  {
+        {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"AdminTools\"]"
+      }
+    },
+
+        {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
-        "type": "name",
-        "value": "addressline"
-      },
-      "text": "manas21"
+        "type": "link text",
+        "value": "Competitive Analysis Builder"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "search_button"
+        "value": "add_column_button"
       }
     },
-  {
-      "type": "pause",
-      "waitTime": "4000"
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#product_all_text > label"
+      }
     },
-
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "enable_disable_checkbox_product_all"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#product_all_text > label"
+      }
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "id",
+        "value": "enable_disable_checkbox_product_all"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_dropdown_1_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_dropdown_1_chzn_o_81']"
+      },
+      "text": "dennys"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_dropdown_2_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='accounts_dropdown_2_chzn_o_303']"
+      },
+      "text": "wafflehouse"
+    },
+    
+   
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    },
-  {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "advanced_search_button"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_name"
-      },
-      "text": "manas21"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-   
-    
-    
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_phone"
-      },
-      "text": "00000000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-                 {
-      "type": "pause",
-      "waitTime": "4000"
     }
   ]
 }
