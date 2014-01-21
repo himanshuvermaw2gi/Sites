@@ -65,7 +65,7 @@
     },
         {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "16000"
     },
     
     {
