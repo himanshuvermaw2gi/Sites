@@ -417,19 +417,26 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "15000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_pnlStep5']//a[.='Finish']"
+        "value": "//*[@id='ContentPlaceHolder1_btnSave']"
       }
     },
      {
       "type": "pause",
       "waitTime": "15000"
+    },
+{
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_btnCancel']"
+      }
     },
 
     {
