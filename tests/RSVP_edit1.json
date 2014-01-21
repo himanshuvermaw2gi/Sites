@@ -207,10 +207,22 @@
         "value": "ContentPlaceHolder1_btnContinue1"
       }
     },
- {
+    {
       "type": "pause",
-      "waitTime": "15000"
+      "waitTime": "3000"
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinue2"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+
 
     {
       "type": "clickElement",
@@ -221,7 +233,7 @@
     },
  {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     },
 
     {
