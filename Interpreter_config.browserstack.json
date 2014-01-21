@@ -11,7 +11,7 @@
             "path": "/wd/hub"
           },
           "browserOptions": {
-            "browserName": "chrome",
+            "browserName": "IE",
             "platform" : "ANY",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
