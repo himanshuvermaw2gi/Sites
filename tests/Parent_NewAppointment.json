@@ -423,8 +423,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnSave"
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_btnCancel']"
       }
     },
      {
@@ -433,7 +433,7 @@
     },
 
     {
-      "type": "acceptAlert"
+      "type": "dismissAlert"
     },
  {
       "type": "pause",
