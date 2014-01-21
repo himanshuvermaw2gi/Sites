@@ -71,8 +71,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"AdminTools\"]"
+        "type": "xpath",
+        "value": "//li[@id='AdminTools']/a/img"
       }
     },
 
