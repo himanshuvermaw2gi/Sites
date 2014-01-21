@@ -34,10 +34,11 @@
         "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
-    {
+   {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -45,10 +46,11 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_9"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -56,10 +58,148 @@
         "value": "ContentPlaceHolder1_gvActiveEvents_lnkEdit_0"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventName"
+      },
+      "text": "Test0001"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventDescription"
+      },
+      "text": "test data"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtLocation"
+      },
+      "text": "florida"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgEventDate"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceEventDate_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceEventDate_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceEventDate_day_3_4"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_imgResponse"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_CalendarExtender1_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_CalendarExtender1_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_CalendarExtender1_day_3_0"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    
     {
       "type": "clickElement",
       "locator": {
@@ -67,21 +207,11 @@
         "value": "ContentPlaceHolder1_btnContinue1"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnContinue2"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -89,21 +219,60 @@
         "value": "ContentPlaceHolder1_btnContinue3"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_BtnContinuePreAssigned"
+        "value": "ContentPlaceHolder1_ImageBtnSendMessage"
       }
     },
-    {
+ {
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceSendMessage_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceSendMessage_nextArrow"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ceSendMessage_day_1_4"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+   
     {
       "type": "clickElement",
       "locator": {
@@ -111,10 +280,11 @@
         "value": "ContentPlaceHolder1_btnContinue4"
       }
     },
-    {
+ {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "9000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -122,16 +292,30 @@
         "value": "ContentPlaceHolder1_btnCancel1"
       }
     },
-    {
+ {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
+
     {
       "type": "acceptAlert"
     },
+ {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "HeaderUC1_LoginView2_LoginStatus1"
+      }
+    },
+ {
       "type": "pause",
       "waitTime": "3000"
     }
+
   ]
 }
