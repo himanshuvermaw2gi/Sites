@@ -87,13 +87,13 @@
     },
                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "6000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='page_header']//select[.='accountdennysdennys']//option[1]"
+        "value": "//div[@id='page_header']//select[.='accountdennys']//option[1]"
       }
     },
     {
