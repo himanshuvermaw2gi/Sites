@@ -35,7 +35,7 @@
         "value": "submit"
       }
     },
-     {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -53,7 +53,7 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "denny"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
@@ -61,10 +61,6 @@
         "type": "xpath",
         "value": "//ul[@class='chzn-results']//li[.='dennys']"
       }
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
     },
 
     {
@@ -74,7 +70,7 @@
         "value": "change_account"
       }
     },
-     {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -86,7 +82,7 @@
         "value": "Accounts"
       }
     },
-     {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -98,7 +94,7 @@
         "value": "NotActiveTab"
       }
     },
-     {
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -110,27 +106,17 @@
         "value": "//div[@id='page_header']/ul/li[2]/input"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
+{
+      "type": "pause",
+      "waitTime": "4000"
     },
+
+    
     {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/div/select//option[237]"
-      }
+      "type": "pause",
+      "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "clients_dropdown_chzn_o_236"
-      }
-    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -138,8 +124,18 @@
         "value": "action_save_new_parent_in_new_parent_0"
       }
     },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "acceptAlert"
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
     }
+
   ]
 }
