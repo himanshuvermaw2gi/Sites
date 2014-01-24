@@ -7,11 +7,6 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
-     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
     {
       "type": "setElementText",
       "locator": {
@@ -35,11 +30,10 @@
         "value": "submit"
       }
     },
-{
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -70,23 +64,21 @@
         "value": "change_account"
       }
     },
-{
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Accounts"
+        "type": "css selector",
+        "value": "img[alt=\"Accounts\"]"
       }
     },
-{
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -94,16 +86,39 @@
         "value": "NotActiveTab"
       }
     },
-{
+		{
       "type": "pause",
       "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "6000"
     },
 
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='page_header']/ul/li[2]/input"
+        "value": "//*[@id='action_more_actions_in_clientcontactinformation_0']"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='action_edit_in_clientcontactinformation_0']"
       }
     },
 {
@@ -111,8 +126,15 @@
       "waitTime": "4000"
     },
 
-    
     {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_title_in_contactdetails"
+      },
+      "text": "test1234a"
+    },
+{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -121,21 +143,35 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_new_parent_in_new_parent_0"
+        "value": "lightwindow_contents"
       }
     },
-{
+
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
-      "type": "acceptAlert"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_edit_clientcontactinformation_0"
+      }
     },
-{
+		{
       "type": "pause",
       "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "1000"
     }
-
   ]
 }
