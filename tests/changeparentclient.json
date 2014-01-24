@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -30,10 +35,11 @@
         "value": "submit"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -47,13 +53,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_115"
+        "value": "accounts_chzn_o_85"
       }
     },
     {
@@ -63,10 +69,11 @@
         "value": "change_account"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -74,10 +81,11 @@
         "value": "Accounts"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -85,38 +93,48 @@
         "value": "NotActiveTab"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "table_label_contractinformation"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "6000"
-    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='action_view_in_contractinformation_0']"
+        "value": "//div[@id='page_header']/ul/li[2]/input"
       }
     },
-	{
+{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
+
+    
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "action_save_new_parent_in_new_parent_0"
       }
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "acceptAlert"
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
     }
+
   ]
 }
