@@ -7,11 +7,6 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
-     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
     {
       "type": "setElementText",
       "locator": {
@@ -35,11 +30,10 @@
         "value": "submit"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -53,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "fellowes"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_85"
+        "value": "accounts_chzn_o_115"
       }
     },
     {
@@ -69,11 +63,10 @@
         "value": "change_account"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -81,11 +74,10 @@
         "value": "Accounts"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -93,78 +85,38 @@
         "value": "NotActiveTab"
       }
     },
-{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='page_header']/ul/li[2]/input"
-      }
-    },
-{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/div/select//option[237]"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "clients_dropdown_chzn_o_236"
+        "value": "table_label_contractinformation"
       }
     },
-{
+	{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_new_parent_in_new_parent_0"
+        "value": "action_view_in_contractinformation_0"
       }
     },
-{
+	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "6000"
     },
-
     {
-      "type": "acceptAlert"
-    },
-{
-      "type": "pause",
-      "waitTime": "4000"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
     }
-
   ]
 }
