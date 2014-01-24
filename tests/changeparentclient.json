@@ -7,6 +7,11 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -30,10 +35,11 @@
         "value": "submit"
       }
     },
-                {
+{
       "type": "pause",
       "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -49,7 +55,7 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -63,10 +69,11 @@
         "value": "change_account"
       }
     },
-                {
+{
       "type": "pause",
       "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -74,10 +81,11 @@
         "value": "Accounts"
       }
     },
-                {
+{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -85,17 +93,11 @@
         "value": "NotActiveTab"
       }
     },
-                {
+{
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "4000"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='page_header']//select[.='accountdennys']//option[1]"
-      }
-    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -103,10 +105,47 @@
         "value": "//div[@id='page_header']/ul/li[2]/input"
       }
     },
-                {
+{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.chzn-single.chzn-single-with-drop > div > b"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='lightwindow_contents']/div/select//option[237]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "clients_dropdown_chzn_o_236"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -114,9 +153,18 @@
         "value": "action_save_new_parent_in_new_parent_0"
       }
     },
-                {
+{
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "acceptAlert"
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
     }
+
   ]
 }
