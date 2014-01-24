@@ -49,7 +49,7 @@
       },
       "text": "fellowes"
     },
-     {
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -96,49 +96,14 @@
         "value": "table_label_clientcontactinformation"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_more_actions_in_clientcontactinformation_0"
+        "value": "action_view_in_clientcontactinformation_0"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_edit_in_clientcontactinformation_0"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_lastname_in_contactdetails"
-      },
-      "text": "yadav2"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_clientcontactinformation_0"
-      }
-    },
-	{
+        {
       "type": "pause",
       "waitTime": "2000"
     },
