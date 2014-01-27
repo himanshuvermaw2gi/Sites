@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "2000"
     },
@@ -47,15 +47,16 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "fellowes"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_85"
+        "type": "xpath",
+        "value": "//ul[@class='chzn-results']//li[.='fellowes']"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,84 +64,72 @@
         "value": "change_account"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Leads\"]"
+        "value": "img[alt=\"Etailer\"]"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
+        "type": "link text",
+        "value": "Online Store"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='leads']//a[.='Edit this Campaign']"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },                
-                
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "campSubmit"
-      }
-    },
-                {
-                "type" : "acceptAlert"
-                },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[7]/input"
       }
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "campSubmit"
-      }
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[7]/input"
+      },
+      "text": "USA21"
     },
-                {
-                "type" : "acceptAlert"
-                },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
-      }
-    },
-                {
-                "type" : "acceptAlert"
-                },
-                {
+	{
       "type": "pause",
       "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-confirm"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[8]/input"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "1000"
     }
   ]
 }
