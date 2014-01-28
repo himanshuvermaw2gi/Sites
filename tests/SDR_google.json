@@ -188,7 +188,7 @@
         "value": "queueTypeSDR"
       }
     },
-{
+    {
      "type": "pause",
      "waitTime": "4000"
     },
@@ -200,10 +200,14 @@
       }
     },
     {
+     "type": "pause",
+     "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "recipients"
+        "type": "css selector",
+        "value": "#recipients"
       },
        "text": "abc@example.com"
     },
