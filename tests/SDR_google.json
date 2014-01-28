@@ -203,14 +203,15 @@
      "type": "pause",
      "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
+     {
+      "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "#recipients"
+        "type": "xpath",
+        "value": "//*[@id='recipients']"
       },
-       "text": "abc@example.com"
+         "text" : "himanshu@panalinks.com"
     },
+
     {
       "type": "clickElement",
       "locator": {
