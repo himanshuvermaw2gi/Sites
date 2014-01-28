@@ -122,14 +122,18 @@
         "value": "input.datepickerApply.GrayButton"
       }
     },
+     {
+     "type": "pause",
+     "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "\nReports\n"
+        "type": "css selector",
+        "value": "img[alt=\"Reports\"]"
       }
     },
-{
+    {
      "type": "pause",
      "waitTime": "4000"
     },
