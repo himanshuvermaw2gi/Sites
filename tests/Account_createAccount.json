@@ -264,7 +264,7 @@
       "waitTime": "7000"
     },
     {
-      "type": "clickElementWithOffset",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='sla']"
