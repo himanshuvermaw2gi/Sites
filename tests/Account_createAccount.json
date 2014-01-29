@@ -264,7 +264,7 @@
       "waitTime": "4000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "sla"
@@ -392,7 +392,7 @@
     },
    {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "10000"
     },
 
     {
