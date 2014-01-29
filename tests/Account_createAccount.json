@@ -54,13 +54,14 @@
       },
       "text": "dennys"
     },
-    {
+     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_85 > em"
+        "type": "xpath",
+        "value": "//ul[@class='chzn-results']//li[.='dennys']"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -105,12 +106,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "client_name"
       },
-      "text": "test_panalink01"
+      "text": "test_panalink02"
     },
     {
       "type": "setElementText",
@@ -118,7 +123,11 @@
         "type": "id",
         "value": "account_name"
       },
-      "text": "panalink02"
+      "text": "panalink03"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
@@ -128,11 +137,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='company_slide']/table/tbody/tr[5]/td[2]/select//option[2]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
@@ -142,6 +159,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
@@ -149,11 +170,20 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "client_website"
-      }
+        "type": "xpath",
+        "value": "//*[@id='client_website']"
+      },
+      "text": "https://www.google.com"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementText",
@@ -164,6 +194,10 @@
       "text": "sdasdasd"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -172,12 +206,20 @@
       "text": "asdsdasdasd"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "client_city"
       },
       "text": "asdasdasd"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementText",
@@ -195,12 +237,20 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "msaautorenewalfrequency"
       },
       "text": "2"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
@@ -210,11 +260,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "sla"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
@@ -243,6 +301,10 @@
         "type": "id",
         "value": "marketingpermission"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementText",
