@@ -105,8 +105,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
+        "type": "xpath",
+        "value": "//p[@id='table_label_clientcontactinformation']/span"
       }
     },
 {
