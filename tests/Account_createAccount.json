@@ -8,10 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -34,11 +30,10 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -54,7 +49,7 @@
       },
       "text": "dennys"
     },
-     {
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -69,338 +64,127 @@
         "value": "change_account"
       }
     },
+		{
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Accounts\"]"
+      }
+    },
+		{
       "type": "pause",
       "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='table_label_clientcontactinformation']"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "16000"
     },
 
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Accounts"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Create Account"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "company_slide"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "client_name"
-      },
-      "text": "test_panalink02"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "account_name"
-      },
-      "text": "panalink03"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
         "type": "xpath",
-        "value": "//div[@id='company_slide']/table/tbody/tr[4]/td[2]/select//option[2]"
+        "value": "//*[@id='table_label_clientcontactinformation']/span"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='company_slide']/table/tbody/tr[5]/td[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='company_slide']/table/tbody/tr[6]/td[2]/select//option[2]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "clientagency"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='client_website']"
-      },
-      "text": "https://www.google.com"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "client_address"
-      },
-      "text": "sdasdasd"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "client_address2"
-      },
-      "text": "asdsdasdasd"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "client_city"
-      },
-      "text": "asdasdasd"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "client_zip"
-      },
-      "text": "35004"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "msaautorenewal"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "msaautorenewalfrequency"
-      },
-      "text": "2"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ondemand"
-      }
-    },
-    {
+    	{
       "type": "pause",
       "waitTime": "7000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='sla']"
+        "value": "//*[@id='action_more_actions_in_clientcontactinformation_0']"
       }
     },
-    {
+{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "15000"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "videopermission"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "logopermission"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "casestudy"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "marketingpermission"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contact_fname"
-      },
-      "text": "asdasdasd"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contact_lname"
-      },
-      "text": "asdasdasd"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contact_phone"
-      },
-      "text": "0000000000"
-    },
+    
+    
+
     {
       "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "contact_email"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "same_address"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "account_password"
-      },
-      "text": "pana@95"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "account_password_retype"
-      },
-      "text": "pana@95"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "account_ip"
-      },
-      "text": "192.168.1.2"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "account_radius"
-      },
-      "text": "500"
-    },
-    {
-      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='design_slide']/table/tbody/tr[3]/td[2]/select//option[1]"
+        "value": "//*[@id='action_edit_in_clientcontactinformation_0']"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit_form"
-      }
-    },
-   {
+{
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "4000"
     },
 
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_title_in_contactdetails"
+      },
+      "text": "test1234ab"
+    },
+{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_contents"
+      }
+    },
+
+		{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_save_edit_clientcontactinformation_0"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+		{
+      "type": "pause",
+      "waitTime": "1000"
     }
   ]
 }
