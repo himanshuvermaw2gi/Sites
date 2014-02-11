@@ -66,7 +66,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -88,7 +88,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "24000"
     },
     {
       "type": "clickElement",
@@ -99,45 +99,40 @@
     },
 {
       "type": "pause",
-      "waitTime": "16000"
+      "waitTime": "26000"
     },
 
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='table_label_clientcontactinformation']/span"
-      }
-    },
-    	{
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='action_more_actions_in_clientcontactinformation_0']"
+        "type": "css selector",
+        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
       }
     },
 {
       "type": "pause",
-      "waitTime": "15000"
+      "waitTime": "25000"
     },
-    
-    
 
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='action_edit_in_clientcontactinformation_0']"
+        "type": "id",
+        "value": "action_more_actions_in_clientcontactinformation_0"
       }
     },
 {
       "type": "pause",
       "waitTime": "4000"
     },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_edit_in_clientcontactinformation_0"
+      }
+    },
+
 
     {
       "type": "setElementText",
