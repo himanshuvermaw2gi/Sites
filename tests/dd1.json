@@ -1,0 +1,61 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://hosted.where2stageit.com/ramtest/ddonly.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "startaddress"
+      },
+      "text": "fl"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "endaddress"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "driving_directions_button"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "18000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[2]/img"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "9000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
