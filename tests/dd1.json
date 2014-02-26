@@ -32,8 +32,9 @@
     },
     {
       "type": "pause",
-      "waitTime": "18000"
+      "waitTime": "15000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
