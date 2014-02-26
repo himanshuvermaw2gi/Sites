@@ -13,7 +13,7 @@
         "type": "id",
         "value": "startaddress"
       },
-      "text": "fl"
+      "text": "al"
     },
     {
       "type": "setElementText",
@@ -21,7 +21,7 @@
         "type": "id",
         "value": "endaddress"
       },
-      "text": "35004"
+      "text": "fl"
     },
     {
       "type": "clickElement",
@@ -32,24 +32,30 @@
     },
     {
       "type": "pause",
-      "waitTime": "18000"
+      "waitTime": "4000"
     },
+    
     {
       "type": "pause",
-      "waitTime": "12000"
+      "waitTime": "14000"
     },
+   
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_153 > div"
-      }
+      "type": "pause",
+      "waitTime": "10000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
         "value": "#OL_Icon_149 > div"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#OL_Icon_5988 > div"
       }
     }
   ],
