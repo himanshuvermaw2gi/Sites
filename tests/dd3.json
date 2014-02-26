@@ -35,11 +35,8 @@
       "waitTime": "18000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "tr.even > td > a"
-      }
+      "type": "pause",
+      "waitTime": "12000"
     },
     {
       "type": "clickElement",
