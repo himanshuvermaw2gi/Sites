@@ -50,15 +50,19 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_149 > div"
+        "type": "xpath",
+        "value": "//div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_5988 > div"
+        "type": "xpath",
+        "value": "//div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[2]/div"
       }
     }
   ],
