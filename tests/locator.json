@@ -145,6 +145,17 @@
       "waitTime": "4000"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
