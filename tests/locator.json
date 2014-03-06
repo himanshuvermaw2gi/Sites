@@ -562,13 +562,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
+    
     {
       "type": "setElementSelected",
       "locator": {
