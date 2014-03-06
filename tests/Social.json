@@ -36,7 +36,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
@@ -49,7 +49,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-   {
+    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
@@ -85,18 +85,18 @@
     },
     {
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "14000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[1]/select//option[4]"
+        "value": "//form[@id='reportForm']/ul[1]/li[1]/select//option[6]"
       }
     },
     {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -107,7 +107,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "10000"
     },
     {
       "type": "setElementSelected",
@@ -118,26 +118,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "4000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='from_dt']"
-      }
-    },
-      {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-
-   
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
+        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[3]"
       }
     },
     {
@@ -148,20 +135,33 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "from_dt"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementSelected",
+     {
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[3]"
+        "value": "//*[@id='date_back']"
       }
     },
+
+   {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='date_back']"
+      }
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='date_back']"
+      }
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -263,7 +263,7 @@
       }
     },
     {
-      "type": "doubleClickElement",
+      "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "genReport"
@@ -287,7 +287,6 @@
         "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[8]"
       }
     },
-    
     {
       "type": "clickElement",
       "locator": {
@@ -295,17 +294,9 @@
         "value": "genReport"
       }
     },
-    
     {
       "type": "pause",
       "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
     },
     {
       "type": "setElementSelected",
@@ -314,6 +305,26 @@
         "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[9]"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='date_back']"
+      }
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='date_back']"
+      }
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -387,187 +398,6 @@
       "locator": {
         "type": "xpath",
         "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[12]"
-      }
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[13]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "reportForm"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[14]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[15]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[16]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[17]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[18]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[19]"
       }
     },
     {
