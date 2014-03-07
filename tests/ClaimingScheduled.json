@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		{
+                {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -49,7 +49,7 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -64,9 +64,9 @@
         "value": "change_account"
       }
     },
-		{
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -75,21 +75,33 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-		{
+    
+                {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Scheduled"
+      }
+    },
+                {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[6]"
+        "value": "//form[@id='ldsschedule']/table[1]/tbody/tr[1]/td[2]/select//option[4]"
       }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "name",
+        "type": "id",
         "value": "countries"
       },
       "text": "AL"
@@ -97,18 +109,40 @@
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "no_post"
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[1]/td[2]/ul/li[1]/select//option[2]"
       }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[1]/select//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[2]/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "recipients"
+      },
+      "text": "w2gi@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "view_file"
+        "value": "add_sched"
       }
     },
-		{
+            {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -119,29 +153,7 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "OmnibarRight"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "add"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Your request is currently being processed. Please check your email for result."
-    },
-		{
+                {
       "type": "pause",
       "waitTime": "1000"
     }
