@@ -1,15 +1,11 @@
 {
   "type": "script",
   "seleniumVersion": "2",
-  "formatVersion": 2,
+  "formatVersion": 1,
   "steps": [
     {
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
     },
     {
       "type": "setElementText",
@@ -34,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -46,10 +42,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "6000"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
@@ -57,7 +49,7 @@
       },
       "text": "dennys"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -72,82 +64,51 @@
         "value": "change_account"
       }
     },
-     {
+		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Reports"
+        "type": "css selector",
+        "value": "img[alt=\"Syndicate\"]"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "7000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[1]/select//option[7]"
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[6]"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='date_back']"
-      }
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='date_back']"
-      }
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "genReport"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+        "type": "name",
+        "value": "countries"
+      },
+      "text": "AL"
     },
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[2]"
+        "type": "id",
+        "value": "no_post"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "genReport"
+        "value": "view_file"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -159,45 +120,30 @@
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "doubleClickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[3]"
+        "type": "id",
+        "value": "OmnibarRight"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "genReport"
+        "value": "add"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+      "type": "verifyTextPresent",
+      "text": "Your request is currently being processed. Please check your email for result."
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='reportForm']/ul[1]/li[2]/select//option[4]"
-      }
-    },
-    {
+		{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "1000"
     }
-  ],
-  "data": {
-    "configs": {},
-    "source": "none"
-  },
-  "inputs": []
+  ]
 }
