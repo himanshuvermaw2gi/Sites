@@ -264,7 +264,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//form[@class='form']//button[normalize-space(.)='SIGN UP']"
+        "value": "//*[@id='register-submit-btn']"
       }
     },
     {
