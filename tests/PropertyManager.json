@@ -92,7 +92,7 @@
         "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -315,20 +315,40 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "$102,224"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "verifyTextPresent",
       "text": "$9,822"
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "$5,426"
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "14.38%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -338,20 +358,40 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "$100,774"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "verifyTextPresent",
       "text": "$10,461"
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "$5,426"
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "15.15%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
