@@ -156,7 +156,7 @@
         "type": "xpath",
         "value": "//*[@id='amount_5']"
       },
-      "text": "2,30,000.00"
+      "text": "25,000.00"
     },
     {
       "type": "pause",
